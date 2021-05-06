@@ -749,6 +749,45 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Espresso"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ExCod_liver_oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExCrustShellfish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExDairy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExEgg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExFish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExFish_oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExMeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExMollusc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExPork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExRabbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExRedMeat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExSeafood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ExSugar"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Exercise"/>
     </Declaration>
     <Declaration>
@@ -968,6 +1007,9 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Haddock"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Halal"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Halibut"/>
     </Declaration>
     <Declaration>
@@ -1182,6 +1224,9 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Kiwi_allergy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Kosher"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Lacto"/>
@@ -1881,6 +1926,9 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Salad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SalicylateFoods"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Salicylates_intolerance"/>
@@ -3208,6 +3256,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Cake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Gluten"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Calamari"/>
         <Class IRI="#Squid"/>
     </SubClassOf>
@@ -3265,6 +3320,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Capuccino"/>
         <Class IRI="#Coffee"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capuccino"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsFood"/>
+            <Class IRI="#Milk"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Capuccino"/>
@@ -3345,6 +3407,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Cheese"/>
         <Class IRI="#Dairy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cheese"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cheesecake"/>
@@ -4191,6 +4260,58 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Coffee"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#ExCod_liver_oil"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExCrustShellfish"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExDairy"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExEgg"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExFish"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExFish_oil"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExMeat"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExMollusc"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExPork"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExRabbit"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExRedMeat"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExSeafood"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ExSugar"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Exercise"/>
         <Class IRI="#Activity"/>
     </SubClassOf>
@@ -4278,6 +4399,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Fish"/>
         <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fish_allergy"/>
@@ -4395,6 +4523,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Fruit"/>
         <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fruit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsFood"/>
+            <Class IRI="#Fructose"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Garlic"/>
@@ -4544,6 +4679,10 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Haddock"/>
         <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Halal"/>
+        <Class IRI="#Diet"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Halibut"/>
@@ -4903,6 +5042,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Condiment"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Ketchup"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsFood"/>
+            <Class IRI="#Sugar"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Ketones"/>
         <Class IRI="#Biochemical_indicator"/>
     </SubClassOf>
@@ -4921,6 +5067,10 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Kiwi_allergy"/>
         <Class IRI="#Food_allergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kosher"/>
+        <Class IRI="#Diet"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lacto"/>
@@ -5006,6 +5156,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Legume"/>
         <Class IRI="#Superfood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legume"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lemon"/>
@@ -5248,6 +5405,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Dairy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Milk"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Milk_allergy"/>
         <Class IRI="#Food_allergy"/>
     </SubClassOf>
@@ -5282,6 +5446,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Mollusc"/>
         <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mollusc"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mollusc_allergy"/>
@@ -6300,6 +6471,10 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#SalicylateFoods"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Salicylates_intolerance"/>
         <Class IRI="#Intolerance"/>
     </SubClassOf>
@@ -6385,6 +6560,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Seafood"/>
         <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Seaweed"/>
@@ -7455,6 +7637,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Dairy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Yoghurt"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Zeaxanthin"/>
         <Class IRI="#Carotenoid"/>
     </SubClassOf>
@@ -7484,12 +7673,531 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
+            <Class IRI="#Avocado_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Avocado"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Banana_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Banana"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Caffeine_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#restrictNutrient"/>
+                <Class IRI="#Caffeine"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
             <Class IRI="#Calcium_deficiency"/>
             <Class IRI="#Magnesium_deficiency"/>
             <Class IRI="#Potassium_deficiency"/>
             <Class IRI="#Sodium_deficiency"/>
         </ObjectIntersectionOf>
         <Class IRI="#Electrolytes_deficiency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Celery_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Celery"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Crustacean_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Crustacean_shellfish"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Egg_allergy"/>
+            <Class IRI="#ExEgg"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExCod_liver_oil"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExCod_liver_oil"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExCrustShellfish"/>
+            <Class IRI="#Kosher"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExDairy"/>
+            <Class IRI="#Ovo"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExDairy"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExEgg"/>
+            <Class IRI="#Lacto"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExEgg"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExFish"/>
+            <Class IRI="#Fish_allergy"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExFish"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExFish"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExFish_oil"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExFish_oil"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExMeat"/>
+            <Class IRI="#Pescatarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExMeat"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExMeat"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExMollusc"/>
+            <Class IRI="#Kosher"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExMollusc"/>
+            <Class IRI="#Mollusc_allergy"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExMollusc"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExMollusc"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExPork"/>
+            <Class IRI="#Halal"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExPork"/>
+            <Class IRI="#Kosher"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExRabbit"/>
+            <Class IRI="#Kosher"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExRedMeat"/>
+            <Class IRI="#Red_meat_avoider"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExSeafood"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExSeafood"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExSugar"/>
+            <Class IRI="#T2_Diabetes"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#FODMAPs_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Amaranth"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#FODMAPs_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Barley"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#FODMAPs_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Garlic"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#FODMAPs_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Legume"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#FODMAPs_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Milk"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#FODMAPs_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Onion"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#FODMAPs_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Rye"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#FODMAPs_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Wheat"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#FODMAPs_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Yoghurt"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Fructose_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Fruit"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Garlic_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Garlic"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Gluten_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#restrictNutrient"/>
+                <Class IRI="#Gluten"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Gluten_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#restrictNutrient"/>
+                <Class IRI="#Gluten"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Kiwi_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Kiwi"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Lactose_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#restrictNutrient"/>
+                <Class IRI="#Lactose"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Linseed_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Flax"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Milk_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Milk"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Peach_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Peach"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Peanut_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Peanut"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Pollen_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Pollen"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Reduce_fiber"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#restrictNutrient"/>
+                <Class IRI="#Fiber"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Reduce_protein"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#restrictNutrient"/>
+                <Class IRI="#Protein"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Salicylates_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#SalicylateFoods"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sesame_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Sesame"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Soy_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Soy"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Strawberry_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Strawberry"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Tree_nut_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Tree_nut"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Wheat_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Wheat"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
@@ -7739,11 +8447,73 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class abbreviatedIRI="owl:Nothing"/>
     </SubClassOf>
     <SubClassOf>
+        <ObjectUnionOf>
+            <Class IRI="#Artichoke"/>
+            <Class IRI="#Asparagus"/>
+            <Class IRI="#Beetroot"/>
+            <Class IRI="#Broccoli"/>
+            <Class IRI="#Carrot"/>
+            <Class IRI="#Cauliflower"/>
+            <Class IRI="#Chicory"/>
+            <Class IRI="#Chili_pepper"/>
+            <Class IRI="#Corn"/>
+            <Class IRI="#Corn_starch"/>
+            <Class IRI="#Cucumber"/>
+            <Class IRI="#Eggplant"/>
+            <Class IRI="#Endive"/>
+            <Class IRI="#Fava_bean"/>
+            <Class IRI="#Mushroom"/>
+            <Class IRI="#Okra"/>
+            <Class IRI="#Olive"/>
+            <Class IRI="#Olive_oil"/>
+            <Class IRI="#Onion"/>
+            <Class IRI="#Parsnip"/>
+            <Class IRI="#Peppers"/>
+            <Class IRI="#Potato"/>
+            <Class IRI="#Pumpkin"/>
+            <Class IRI="#Radish"/>
+            <Class IRI="#Spinach"/>
+            <Class IRI="#Squash"/>
+            <Class IRI="#Sweet_potato"/>
+            <Class IRI="#Turnip"/>
+            <Class IRI="#Watercress"/>
+        </ObjectUnionOf>
+        <Class IRI="#SalicylateFoods"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Cod_liver_oil"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#Cod_liver_oil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Crustacean_shellfish"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#ExCrustShellfish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Dairy"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#ExDairy"/>
+    </SubClassOf>
+    <SubClassOf>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#excludeFood"/>
             <Class IRI="#Dairy"/>
         </ObjectSomeValuesFrom>
         <Class IRI="#FoodExclusionDairy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Egg"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#ExEgg"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
@@ -7757,7 +8527,28 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
             <ObjectProperty IRI="#excludeFood"/>
             <Class IRI="#Fish"/>
         </ObjectSomeValuesFrom>
+        <Class IRI="#ExFish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Fish"/>
+        </ObjectSomeValuesFrom>
         <Class IRI="#FoodExclusionFish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Fish_oil"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#ExFish_oil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Meat"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#ExMeat"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
@@ -7771,7 +8562,35 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
             <ObjectProperty IRI="#excludeFood"/>
             <Class IRI="#Mollusc"/>
         </ObjectSomeValuesFrom>
+        <Class IRI="#ExMollusc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Mollusc"/>
+        </ObjectSomeValuesFrom>
         <Class IRI="#FoodExclusionMollusc"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Pork"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#ExPork"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Rabbit"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#ExRabbit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Red_meat"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#ExRedMeat"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
@@ -7785,7 +8604,21 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
             <ObjectProperty IRI="#excludeFood"/>
             <Class IRI="#Seafood"/>
         </ObjectSomeValuesFrom>
+        <Class IRI="#ExSeafood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Seafood"/>
+        </ObjectSomeValuesFrom>
         <Class IRI="#FoodExclusionSeafood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Sugar"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#ExSugar"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
