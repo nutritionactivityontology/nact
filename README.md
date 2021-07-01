@@ -24,9 +24,9 @@ NAct Ontology scientific publication accepted at FOIS 2021!
 ### Author 
 Dorothea Tsatsou
 
-*Information Technologies Institute ([ITI](www.iti.gr))*
+*Information Technologies Institute ([ITI](https://www.iti.gr/))*
 
-*The Centre for Research and Technology Hellas ([CERTH](www.certh.gr))*
+*The Centre for Research and Technology Hellas ([CERTH](https://www.certh.gr/))*
 
 ## Acknowledgements
 The work (v1.4) has been funded by the H2020 IA project [PROTEIN - PeRsOnalized nutriTion for hEalthy livINg](https://protein-h2020.eu/) and conducted under the scientific coordination of Dr. Kosmas Dimitropoulos (CERTH-ITI).
