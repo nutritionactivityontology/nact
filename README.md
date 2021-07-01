@@ -7,6 +7,6 @@ Author: Dorothea Tsatsou
 
 The Centre for Research and Technology Hellas (CERTH) - Information Technologies Institute (ITI)
 
-The ontology was originally developed in the premises of the H2020 IA project PROTEIN (https://protein-h2020.eu/).
+The ontology is originally developed in the premises of the H2020 IA project PROTEIN (https://protein-h2020.eu/).
 
-v1.4
+Current version: v1.4
