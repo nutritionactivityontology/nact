@@ -19,7 +19,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-        <Literal>TO BE COMPLETED</Literal>
+        <Literal>The Nutrition and Activity Ontology (NAct) is designed to drive personalised nutritional and physical activity recommendations and effectively support healthy living, through a reasoning-based AI decision support system. NAct coalesces nutritional, medical, behavioural and lifestyle indicators with dietary and physical activity directives.</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
@@ -36,7 +36,7 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <Literal>Νutrition &amp; Activity Ontology</Literal>
+        <Literal xml:lang="en">NAct: The Νutrition &amp; Activity Ontology</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -48,12 +48,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#A"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Abdominal"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Abs"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Activity"/>
@@ -255,9 +249,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Beverage"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Bicep"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Biochemical_indicator"/>
@@ -524,9 +515,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Coffee"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Cola"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Collard"/>
     </Declaration>
     <Declaration>
@@ -654,9 +642,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Deficiency"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Deltoid"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Dessert"/>
@@ -935,9 +920,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Glucose"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Glut"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Gluten"/>
     </Declaration>
     <Declaration>
@@ -948,12 +930,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Gluten_intolerance"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Gluteus"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Gluts"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Goal"/>
@@ -1014,9 +990,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Ham"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Hamstring"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Hare"/>
@@ -1253,13 +1226,7 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Lasagna"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Lat"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Late_night_snack"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Lats"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Latte"/>
@@ -1314,9 +1281,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Low_sodium"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Lower_body_muscle"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Lunch"/>
@@ -1463,9 +1427,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Multigrain"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Muscle"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Muscle_gain"/>
     </Declaration>
     <Declaration>
@@ -1542,9 +1503,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Obesity"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Obliques"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Octopus"/>
@@ -1659,9 +1617,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Pecan"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Pectoral"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Pepper_Spice"/>
@@ -1794,12 +1749,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Push-up"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Quad"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Quadricep"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Quail"/>
@@ -2054,9 +2003,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Sodium_deficiency"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Soft_drink"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Sorbet"/>
     </Declaration>
     <Declaration>
@@ -2234,16 +2180,10 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Tortilla"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Trapezius"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Tree_nut"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Tree_nut_allergy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Tricep"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Triglycerides"/>
@@ -2286,9 +2226,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Uni"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Upper_body_muscle"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Veal"/>
@@ -2588,10 +2525,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
     </Declaration>
     <EquivalentClasses>
-        <Class IRI="#Abdominal"/>
-        <Class IRI="#Abs"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#Arugula"/>
         <Class IRI="#Rocket"/>
     </EquivalentClasses>
@@ -2634,22 +2567,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#Glut"/>
-        <Class IRI="#Gluteus"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Glut"/>
-        <Class IRI="#Gluts"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Lat"/>
-        <Class IRI="#Lats"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
-        <Class IRI="#Quad"/>
-        <Class IRI="#Quadricep"/>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#Scallion"/>
         <Class IRI="#Spring_onion"/>
     </EquivalentClasses>
@@ -2671,18 +2588,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
             <ObjectProperty IRI="#hasProperty"/>
             <Class IRI="#Antioxidant"/>
         </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Abdominal"/>
-        <Class IRI="#Upper_body_muscle"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Abs"/>
-        <Class IRI="#Abdominal"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Abs"/>
-        <Class IRI="#Upper_body_muscle"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Activity"/>
@@ -2882,6 +2787,48 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Superfood"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Avocado"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avocado"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#C"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avocado"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#E"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avocado"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#K"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avocado"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Magnesium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Avocado"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Avocado_allergy"/>
         <Class IRI="#Food_allergy"/>
     </SubClassOf>
@@ -2952,6 +2899,48 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Banana"/>
         <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banana"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B9"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banana"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#C"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banana"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banana"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Magnesium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banana"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B6"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Banana"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Banana_allergy"/>
@@ -3033,6 +3022,48 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Superfood"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Berry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B9"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Copper"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Manganese"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasProperty"/>
+            <Class IRI="#Antioxidant"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#C"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Berry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Beta_carotene"/>
         <Class IRI="#Carotenoid"/>
     </SubClassOf>
@@ -3046,10 +3077,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Beverage"/>
         <Class IRI="#Meal"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Bicep"/>
-        <Class IRI="#Upper_body_muscle"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Biochemical_indicator"/>
@@ -3114,6 +3141,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Blueberry"/>
         <Class IRI="#Berry"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Blueberry"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#K"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Boar"/>
@@ -3182,6 +3216,20 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Broccoli"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#A"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broccoli"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#C"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Broccoli"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
             <Class IRI="#Salicylic_Acid"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
@@ -3210,8 +3258,57 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Vegetable"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Bulb_and_stem"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bulb_and_stem"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B9"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bulb_and_stem"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Beta_carotene"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bulb_and_stem"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#C"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bulb_and_stem"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Magnesium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bulb_and_stem"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Butter"/>
         <Class IRI="#Dairy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Butter"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fat"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Buttermilk"/>
@@ -3251,8 +3348,8 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Cake"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#containsNutrient"/>
-            <Class IRI="#Gluten"/>
+            <ObjectProperty IRI="#containsFood"/>
+            <Class IRI="#Sugar"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3409,13 +3506,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Dairy"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Cheese"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#highIn"/>
-            <Class IRI="#Protein"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Cheesecake"/>
         <Class IRI="#Confectionery"/>
     </SubClassOf>
@@ -3438,13 +3528,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#containsFood"/>
             <Class IRI="#Egg"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cheesecake"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#highIn"/>
-            <Class IRI="#Sugar"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3551,6 +3634,90 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Fruit"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B6"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B9"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Calcium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Copper"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Magnesium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Phosphorus"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#C"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Citrus"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Clam"/>
         <Class IRI="#Mollusc"/>
     </SubClassOf>
@@ -3591,6 +3758,27 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Oil"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Cod_liver_oil"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#A"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cod_liver_oil"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#D"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cod_liver_oil"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Omega_3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Coffee"/>
         <Class IRI="#Drink"/>
     </SubClassOf>
@@ -3600,10 +3788,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
             <ObjectProperty IRI="#highIn"/>
             <Class IRI="#Caffeine"/>
         </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Cola"/>
-        <Class IRI="#Soft_drink"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Collard"/>
@@ -3690,13 +3874,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Cookie"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#containsFood"/>
-            <Class IRI="#Sugar"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Cooking-preparation_style"/>
         <Class IRI="#Property"/>
     </SubClassOf>
@@ -3774,6 +3951,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Dairy"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Cream"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Cream_cheese"/>
         <Class IRI="#Cheese"/>
     </SubClassOf>
@@ -3784,6 +3968,41 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Cruciferous"/>
         <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cruciferous"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cruciferous"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasProperty"/>
+            <Class IRI="#Anti-inflammatory"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cruciferous"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasProperty"/>
+            <Class IRI="#Antioxidant"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cruciferous"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B9"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cruciferous"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#K"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Crunch"/>
@@ -3901,7 +4120,28 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Dairy"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#D"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dairy"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
             <Class IRI="#Lactose"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dairy"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dairy"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Protein"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -3942,6 +4182,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#containsNutrient"/>
             <Class IRI="#K"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dark_leafy_greens"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Water"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4069,10 +4316,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Condition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Deltoid"/>
-        <Class IRI="#Upper_body_muscle"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Dessert"/>
         <Class IRI="#Meal"/>
     </SubClassOf>
@@ -4101,8 +4344,29 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Fruit"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Dried_fruit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasProperty"/>
+            <Class IRI="#Antioxidant"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dried_fruit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Drink"/>
         <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Drink"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fluid"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Drupes"/>
@@ -4154,6 +4418,55 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Egg"/>
         <Class IRI="#Superfood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egg"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#A"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egg"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egg"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#E"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egg"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carotenoid"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egg"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#D"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egg"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Lecithin"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Egg"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Omega_3"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Egg"/>
@@ -4397,8 +4710,92 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Fruit"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Fig"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B6"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fig"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Copper"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Fish"/>
         <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Iodine"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Iron"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Magnesium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Zinc"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Calcium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#D"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Omega_3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Phosphorus"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fish"/>
@@ -4414,6 +4811,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Fish_oil"/>
         <Class IRI="#Oil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fish_oil"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Omega_3"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Flax"/>
@@ -4556,10 +4960,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Carbohydrate"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Glut"/>
-        <Class IRI="#Lower_body_muscle"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Gluten"/>
         <Class IRI="#Protein"/>
     </SubClassOf>
@@ -4574,14 +4974,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Gluten_intolerance"/>
         <Class IRI="#Intolerance"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Gluteus"/>
-        <Class IRI="#Lower_body_muscle"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Gluts"/>
-        <Class IRI="#Lower_body_muscle"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Goal"/>
@@ -4614,6 +5006,69 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Grains"/>
         <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grains"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grains"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grains"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grains"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B9"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grains"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grains"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grains"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Iron"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grains"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Magnesium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Grains"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Selenium"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Granola"/>
@@ -4693,10 +5148,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Pork"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Hamstring"/>
-        <Class IRI="#Lower_body_muscle"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Hare"/>
         <Class IRI="#Red_meat"/>
     </SubClassOf>
@@ -4769,8 +5220,99 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Bee_product"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Honey"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fructose"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honey"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Glucose"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Honeydew"/>
         <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeydew"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#A"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeydew"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B6"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeydew"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Calcium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeydew"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Iron"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeydew"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Magnesium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeydew"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeydew"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B9"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeydew"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#C"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeydew"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Electrolyte"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeydew"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#K"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Honeydew"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Water"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Horse"/>
@@ -4823,6 +5365,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Ice_cream"/>
         <Class IRI="#Dairy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ice_cream"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsFood"/>
+            <Class IRI="#Sugar"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Implicit_goal"/>
@@ -4941,13 +5490,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Confectionery"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Jam"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#containsFood"/>
-            <Class IRI="#Sugar"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Jogging"/>
         <Class IRI="#Running"/>
     </SubClassOf>
@@ -5049,6 +5591,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Ketchup"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsFood"/>
+            <Class IRI="#Tomato"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Ketones"/>
         <Class IRI="#Biochemical_indicator"/>
     </SubClassOf>
@@ -5119,20 +5668,19 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Pasta"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Lat"/>
-        <Class IRI="#Upper_body_muscle"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Late_night_snack"/>
         <Class IRI="#Snack"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Lats"/>
-        <Class IRI="#Upper_body_muscle"/>
+        <Class IRI="#Latte"/>
+        <Class IRI="#Coffee"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Latte"/>
-        <Class IRI="#Coffee"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsFood"/>
+            <Class IRI="#Milk"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Latte"/>
@@ -5156,6 +5704,62 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Legume"/>
         <Class IRI="#Superfood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legume"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legume"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Iron"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legume"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Phosphorus"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legume"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legume"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Zinc"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legume"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B9"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legume"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Calcium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legume"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Legume"/>
@@ -5222,6 +5826,20 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Offal"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Liver"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#A"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Liver"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Iron"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Lobster"/>
         <Class IRI="#Crustacean_shellfish"/>
     </SubClassOf>
@@ -5240,10 +5858,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Low_sodium"/>
         <Class IRI="#Food_attribute"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Lower_body_muscle"/>
-        <Class IRI="#Muscle"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lunch"/>
@@ -5367,8 +5981,92 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Condiment"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Mayonnaise"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsFood"/>
+            <Class IRI="#Egg"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mayonnaise"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Meat"/>
         <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B6"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Iron"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Phosphorus"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Selenium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Zinc"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Meat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B12"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Meat"/>
@@ -5393,6 +6091,55 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Fruit"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Melon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Copper"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#K"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B6"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#C"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Melon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Water"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Micromineral"/>
         <Class IRI="#Mineral"/>
     </SubClassOf>
@@ -5408,7 +6155,35 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Milk"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#highIn"/>
-            <Class IRI="#Protein"/>
+            <Class IRI="#B12"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Magnesium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Phosphorus"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Zinc"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -5446,6 +6221,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Mollusc"/>
         <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mollusc"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasProperty"/>
+            <Class IRI="#Antioxidant"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mollusc"/>
@@ -5598,6 +6380,41 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Superfood"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Nut"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#E"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nut"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nut"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nut"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Magnesium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Nut"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Nutrient_property"/>
         <Class IRI="#Property"/>
     </SubClassOf>
@@ -5652,10 +6469,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Condition"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Obliques"/>
-        <Class IRI="#Abdominal"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Octopus"/>
         <Class IRI="#Mollusc"/>
     </SubClassOf>
@@ -5668,8 +6481,29 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Meat"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Offal"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#A"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Offal"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#D"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Oil"/>
         <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Oil"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fat"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Oily_fish"/>
@@ -5903,16 +6737,19 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Peanut_butter"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsFood"/>
+            <Class IRI="#Salt"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Pear"/>
         <Class IRI="#Pome"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pecan"/>
         <Class IRI="#Tree_nut"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Pectoral"/>
-        <Class IRI="#Upper_body_muscle"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pepper_Spice"/>
@@ -6134,6 +6971,41 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Pseudocereal"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudocereal"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Mineral"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudocereal"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudocereal"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Starch"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pseudocereal"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Vitamin"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Psysiological_indicator"/>
         <Class IRI="#Body_measurement"/>
     </SubClassOf>
@@ -6198,14 +7070,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Push-up"/>
         <Class IRI="#Workout"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Quad"/>
-        <Class IRI="#Lower_body_muscle"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Quadricep"/>
-        <Class IRI="#Lower_body_muscle"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Quail"/>
@@ -6318,6 +7182,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Red_meat"/>
         <Class IRI="#Meat"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Red_meat"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Iron"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Red_meat_avoider"/>
@@ -6437,12 +7308,82 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Vegetable"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Root_vegetable"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Root_vegetable"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B9"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Root_vegetable"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#C"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Root_vegetable"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Beta_carotene"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Root_vegetable"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Magnesium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Root_vegetable"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Rosemary"/>
         <Class IRI="#Herb"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Royal_jelly"/>
         <Class IRI="#Bee_product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Royal_jelly"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Royal_jelly"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Royal_jelly"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Royal_jelly"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Running"/>
@@ -6467,7 +7408,7 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Salad"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#containsFood"/>
-            <Class IRI="#Dark_leafy_greens"/>
+            <Class IRI="#Vegetable"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -6564,8 +7505,99 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Seafood"/>
         <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#A"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#D"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B12"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Calcium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Iodine"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Iron"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Magnesium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Omega_3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Phosphorus"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
             <ObjectProperty IRI="#highIn"/>
             <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Selenium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seafood"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Zinc"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -6575,6 +7607,83 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Seaweed"/>
         <Class IRI="#Superfood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Iron"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Mineral"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#A"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#B"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#C"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#E"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Iodine"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seaweed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Polyunsaturated_fat"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sedentary"/>
@@ -6587,6 +7696,48 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Seed"/>
         <Class IRI="#Superfood"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Mineral"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Monounsaturated_fat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Polyunsaturated_fat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Vitamin"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasProperty"/>
+            <Class IRI="#Antioxidant"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Seed"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Seitan"/>
@@ -6695,6 +7846,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Smoothie"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fluid"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Snack"/>
         <Class IRI="#Meal"/>
     </SubClassOf>
@@ -6711,6 +7869,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Drink"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Soda"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsFood"/>
+            <Class IRI="#Sugar"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Sodium"/>
         <Class IRI="#Electrolyte"/>
     </SubClassOf>
@@ -6721,21 +7886,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Sodium_deficiency"/>
         <Class IRI="#Deficiency"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Soft_drink"/>
-        <Class IRI="#Confectionery"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Soft_drink"/>
-        <Class IRI="#Drink"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Soft_drink"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#containsFood"/>
-            <Class IRI="#Sugar"/>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sorbet"/>
@@ -6751,6 +7901,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Soup"/>
         <Class IRI="#Compound_food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Soup"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fluid"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Sour_cream"/>
@@ -6937,6 +8094,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Starchy_vegetable"/>
         <Class IRI="#Vegetable"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Starchy_vegetable"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Starch"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Steamed"/>
@@ -7168,20 +8332,12 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Bread"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Trapezius"/>
-        <Class IRI="#Upper_body_muscle"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Tree_nut"/>
         <Class IRI="#Nut"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Tree_nut_allergy"/>
         <Class IRI="#Food_allergy"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Tricep"/>
-        <Class IRI="#Upper_body_muscle"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Triglycerides"/>
@@ -7263,10 +8419,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Seafood"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Upper_body_muscle"/>
-        <Class IRI="#Muscle"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Veal"/>
         <Class IRI="#Red_meat"/>
     </SubClassOf>
@@ -7340,6 +8492,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Vegetable"/>
         <Class IRI="#Food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vegetable"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Fiber"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vegetable_oil"/>
@@ -7474,6 +8633,55 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Watermelon"/>
         <Class IRI="#Fruit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Watermelon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#A"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Watermelon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#B5"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Watermelon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Copper"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Watermelon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsNutrient"/>
+            <Class IRI="#Potassium"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Watermelon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#C"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Watermelon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Lycopene"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Watermelon"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Water"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Weight"/>
@@ -8623,6 +9831,36 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Iron_deficiency"/>
+        </ObjectSomeValuesFrom>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_iron_intake"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Obesity"/>
+        </ObjectSomeValuesFrom>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
+            <Class IRI="#Aerobic"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Obesity"/>
+        </ObjectSomeValuesFrom>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
+            <Class IRI="#Endurance_training"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
             <Class IRI="#Obesity"/>
         </ObjectSomeValuesFrom>
         <ObjectAllValuesFrom>
@@ -8748,10 +9986,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#highIn"/>
         <Class IRI="#Food"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#inBodyPart"/>
-        <Class IRI="#Muscle"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#lowIn"/>
@@ -8889,6 +10123,11 @@ Beans can make you gassy</Literal>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
         <IRI>#Breadsticks</IRI>
         <Literal>Bread sticks</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bulb_and_stem</IRI>
+        <Literal xml:lang="en">See again nutrients. Might have been a mix up with root vegetables</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
