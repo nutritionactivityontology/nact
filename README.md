@@ -27,13 +27,13 @@ Dorothea Tsatsou
 *Information Technologies Institute ([ITI](https://www.iti.gr/))* -
 *The Centre for Research and Technology Hellas ([CERTH](https://www.certh.gr/))*
 
-### Μain contributors
-Elena Lalama 
-
-*[Charité – Universitätsmedizin Berlin] (https://www.charite.de/en/)*
 
 ### Acknowledgements
 The work (v1.4) has been funded by the H2020 IA project [PROTEIN - PeRsOnalized nutriTion for hEalthy livINg](https://protein-h2020.eu/).
+
+#### Health and well-being expert contribution
+* Elena Lalama 
+*[Charité – Universitätsmedizin Berlin](https://www.charite.de/en/)*
 
 #### Scientific supervision
 Dr. Kosmas Dimitropoulos
