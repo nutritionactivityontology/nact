@@ -15,7 +15,7 @@ v1.4
 Published under [Creative Commons Attribution-ShareAlike License (version 3.0)](http://creativecommons.org/licenses/by-sa/3.0/)
 ____
 ## About
-TBD
+The Nutrition and Activity Ontology (NAct) is designed to drive personalised nutritional and physical activity recommendations and effectively support healthy living, through a reasoning-based AI decision support system. NAct coalesces nutritional, medical, behavioural and lifestyle indicators with dietary and physical activity directives.
 
 ## News
 NAct Ontology scientific publication accepted at FOIS 2021!
