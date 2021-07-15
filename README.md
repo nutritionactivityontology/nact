@@ -24,15 +24,26 @@ NAct Ontology scientific publication accepted at FOIS 2021!
 ### Author 
 Dorothea Tsatsou
 
-*Information Technologies Institute ([ITI](https://www.iti.gr/))*
-
+*Information Technologies Institute ([ITI](https://www.iti.gr/))* -
 *The Centre for Research and Technology Hellas ([CERTH](https://www.certh.gr/))*
 
-## Acknowledgements
-The work (v1.4) has been funded by the H2020 IA project [PROTEIN - PeRsOnalized nutriTion for hEalthy livINg](https://protein-h2020.eu/) and conducted under the scientific coordination of Dr. Kosmas Dimitropoulos (CERTH-ITI).
+### Μain contributors
+Elena Lalama 
+
+*[Charité – Universitätsmedizin Berlin] (https://www.charite.de/en/)*
+
+### Acknowledgements
+The work (v1.4) has been funded by the H2020 IA project [PROTEIN - PeRsOnalized nutriTion for hEalthy livINg](https://protein-h2020.eu/).
+
+#### Scientific supervision
+Dr. Kosmas Dimitropoulos
+Dr. Petros Daras 
+
+*Information Technologies Institute ([ITI](https://www.iti.gr/))* -
+*The Centre for Research and Technology Hellas ([CERTH](https://www.certh.gr/))*
 
 ## Reference
-TBD
+D. Tsatsou, Elena Lalama, S. L. Wilson-Barnes, K. Hart, V. Cornelissen, R. Buys, I. Pagkalos, S. Balula Dias, K. Dimitropoulos, P. Daras. NAct: The Nutrition & Activity Ontology for healthy living. Formal Ontology in Information Systems: Proceedings of the 12th International Conference (FOIS 2021). IOS Press, 2021. *(to appear)*
 
 ## Publications
-TBD
+D. Tsatsou, Elena Lalama, S. L. Wilson-Barnes, K. Hart, V. Cornelissen, R. Buys, I. Pagkalos, S. Balula Dias, K. Dimitropoulos, P. Daras. NAct: The Nutrition & Activity Ontology for healthy living. Formal Ontology in Information Systems: Proceedings of the 12th International Conference (FOIS 2021). IOS Press, 2021. *(to appear)*
