@@ -31,8 +31,8 @@ Dorothea Tsatsou
 ### Acknowledgements
 The work (v1.4) has been funded by the H2020 IA project [PROTEIN - PeRsOnalized nutriTion for hEalthy livINg](https://protein-h2020.eu/).
 
-#### Health and well-being expert contribution
-* Elena Lalama 
+#### Main contributors
+Elena Lalama 
 *[Charité – Universitätsmedizin Berlin](https://www.charite.de/en/)*
 
 #### Scientific supervision
