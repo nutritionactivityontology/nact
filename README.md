@@ -33,6 +33,7 @@ The work (v1.4) has been funded by the H2020 IA project [PROTEIN - PeRsOnalized 
 
 #### Main contributors
 Elena Lalama 
+
 *[Charité – Universitätsmedizin Berlin](https://www.charite.de/en/)*
 
 #### Scientific supervision
