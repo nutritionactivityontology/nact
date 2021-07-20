@@ -19,7 +19,7 @@
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
-        <Literal>The Nutrition and Activity Ontology (NAct) is designed to drive personalised nutritional and physical activity recommendations and effectively support healthy living, through a reasoning-based AI decision support system. NAct coalesces nutritional, medical, behavioural and lifestyle indicators with dietary and physical activity directives.</Literal>
+        <Literal xml:lang="en">The Nutrition and Activity Ontology (NAct) is designed to drive personalised nutritional and physical activity recommendations and effectively support healthy living, through a reasoning-based AI decision support system. NAct coalesces nutritional, medical, behavioural and lifestyle indicators with dietary and physical activity directives.</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
@@ -40,7 +40,26 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal>The ontology was originally developed in the premises of the H2020 IA project PROTEIN (https://protein-h2020.eu/).</Literal>
+        <Literal>* Current version *
+
+Health and nutrition expertise contribution:
+Elena Lalama (Charité)
+
+Health, nutrition and dietetics guidelines: 
+Saskia L. Wilson-Barnes (University of Surrey),
+Kathryn Hart (University of Surrey), 
+Véronique Cornelissen (KU Leuven), 
+Roselien Buys (KU Leuven),
+Ioannis Pagkalos (International Hellenic University),
+Sofia Balula Dias (Universidade de Lisboa)
+
+Scientific supevision:
+Kosmas Dimitropoulos (CERTH-ITI)
+Petros Daras (CERTH-ITI)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>The ontology is originally developed in the premises of the H2020 IA project PROTEIN (https://protein-h2020.eu/).</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
@@ -302,6 +321,9 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Bread"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Breadcrumbs"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Breadsticks"/>
     </Declaration>
     <Declaration>
@@ -336,6 +358,12 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Bulb_and_stem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Burger"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Butter"/>
@@ -584,6 +612,9 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Cream_cheese"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Crispbread"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Crouton"/>
     </Declaration>
     <Declaration>
@@ -609,9 +640,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Cumin"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#CurrentDiet"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Curry"/>
@@ -857,27 +885,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Food"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#FoodExclusionDairy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FoodExclusionEgg"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FoodExclusionFish"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FoodExclusionMeat"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FoodExclusionMollusc"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FoodExclusionRedMeat"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#FoodExclusionSeafood"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Food_allergy"/>
     </Declaration>
     <Declaration>
@@ -978,6 +985,9 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#HDL_cholesterol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HIIT"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Haddock"/>
@@ -1553,6 +1563,9 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Overhead_press"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Overweight"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Overweight_adolescent"/>
     </Declaration>
     <Declaration>
@@ -1824,15 +1837,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Resting_heart_rate"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RestrictNutrCaffeine"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RestrictNutrGluten"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#RestrictNutrLactose"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rice"/>
@@ -2399,9 +2403,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Ηeart_disease"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ΗΙΙΤ"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Κosher"/>
     </Declaration>
     <Declaration>
@@ -2412,6 +2413,9 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#containsNutrient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#excludeActivity"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#excludeFood"/>
@@ -3189,6 +3193,10 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Breadcrumbs"/>
+        <Class IRI="#Bread"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Breadsticks"/>
         <Class IRI="#Bread"/>
     </SubClassOf>
@@ -3300,6 +3308,21 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Bun"/>
+        <Class IRI="#Bread"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burger"/>
+        <Class IRI="#Compound_food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Burger"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#containsFood"/>
+            <Class IRI="#Bread"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Butter"/>
         <Class IRI="#Dairy"/>
     </SubClassOf>
@@ -3328,6 +3351,27 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#CVD"/>
         <Class IRI="#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVD"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
+            <Class IRI="#Aerobic"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVD"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Reduce_fat_intake"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVD"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Reduce_salt_intake"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cabbage"/>
@@ -3962,6 +4006,10 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Cheese"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Crispbread"/>
+        <Class IRI="#Cracker"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Crouton"/>
         <Class IRI="#Bread"/>
     </SubClassOf>
@@ -4045,10 +4093,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Cumin"/>
         <Class IRI="#Spice"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#CurrentDiet"/>
-        <Class IRI="#GCIs"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Curry"/>
@@ -4542,6 +4586,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Deficiency"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Electrolytes_deficiency"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_electrolytes"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Endive"/>
         <Class IRI="#Vegetable"/>
     </SubClassOf>
@@ -4869,32 +4920,11 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Deficiency"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#FoodExclusionDairy"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FoodExclusionEgg"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FoodExclusionFish"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FoodExclusionMeat"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FoodExclusionMollusc"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FoodExclusionRedMeat"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#FoodExclusionSeafood"/>
-        <Class IRI="#GCIs"/>
+        <Class IRI="#Folic_acid_deficiency"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_folic_acid_intake"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Food_allergy"/>
@@ -5132,6 +5162,10 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Cholesterol"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#HIIT"/>
+        <Class IRI="#Exercise"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Haddock"/>
         <Class IRI="#Fish"/>
     </SubClassOf>
@@ -5363,6 +5397,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Condition"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#IBD"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Reduce_fat_intake"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Ice_cream"/>
         <Class IRI="#Dairy"/>
     </SubClassOf>
@@ -5476,6 +5517,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Iron_deficiency"/>
         <Class IRI="#Deficiency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Iron_deficiency"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_iron_intake"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Iron_level"/>
@@ -5608,6 +5656,20 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Kidney_disease"/>
         <Class IRI="#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kidney_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Reduce_protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Kidney_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Reduce_salt_intake"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Kiwi"/>
@@ -6298,12 +6360,36 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Goal"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Muscle_gain"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_carbs"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Muscle_gain"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Muscle_mass"/>
         <Class IRI="#Anthropometrical_indicator"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Musculoskeletal_problem"/>
         <Class IRI="#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Musculoskeletal_problem"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIntensity"/>
+                <Class IRI="#Low_intensity"/>
+            </ObjectSomeValuesFrom>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Mushroom"/>
@@ -6453,20 +6539,69 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Adolescent"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Obese_adolescent"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Obesity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Obese_adult"/>
         <Class IRI="#Adult"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obese_adult"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Obesity"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Obese_child"/>
         <Class IRI="#Child"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Obese_child"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Obesity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Obese_elder"/>
         <Class IRI="#Elder"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Obese_elder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Obesity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Obesity"/>
         <Class IRI="#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obesity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
+            <Class IRI="#Endurance_training"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obesity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_activity_intensity"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obesity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Weight_loss"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Octopus"/>
@@ -6625,20 +6760,73 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Workout"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Overweight"/>
+        <Class IRI="#Condition"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overweight"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_fiber"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overweight"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Reduce_fat_intake"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overweight"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Weight_loss"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Overweight_adolescent"/>
         <Class IRI="#Adolescent"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overweight_adolescent"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Overweight"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Overweight_adult"/>
         <Class IRI="#Adult"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Overweight_adult"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Overweight"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Overweight_child"/>
         <Class IRI="#Child"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Overweight_child"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Overweight"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Overweight_elder"/>
         <Class IRI="#Elder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Overweight_elder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasCondition"/>
+            <Class IRI="#Overweight"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Ovo"/>
@@ -6777,6 +6965,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Peripheral_artery_disease"/>
         <Class IRI="#CVD"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Peripheral_artery_disease"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
+            <Class IRI="#Walking"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Persimmon"/>
@@ -7244,18 +7439,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Resting_heart_rate"/>
         <Class IRI="#Heart_rate"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#RestrictNutrCaffeine"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#RestrictNutrGluten"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#RestrictNutrLactose"/>
-        <Class IRI="#GCIs"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Rice"/>
@@ -8228,6 +8411,41 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Condition"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#T2_Diabetes"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
+            <Class IRI="#Aerobic"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T2_Diabetes"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
+            <Class IRI="#Endurance_training"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T2_Diabetes"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_fiber"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T2_Diabetes"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Reduce_carbs"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#T2_Diabetes"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Reduced_sugar"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#TDEE"/>
         <Class IRI="#Goal_measurement"/>
     </SubClassOf>
@@ -8580,16 +8798,44 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Deficiency"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Vitamin_A_deficiency"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_vitamin_A_intake"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Vitamin_B12_deficiency"/>
         <Class IRI="#Deficiency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_B12_deficiency"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_vitamin_B12_intake"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Vitamin_C_deficiency"/>
         <Class IRI="#Deficiency"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Vitamin_C_deficiency"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_vitamin_C_intake"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Vitamin_D_deficiency"/>
         <Class IRI="#Deficiency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vitamin_D_deficiency"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_vitamin_D_intake"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Volume"/>
@@ -8610,6 +8856,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Water_deficiency"/>
         <Class IRI="#Deficiency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Water_deficiency"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_liquids"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Water_level"/>
@@ -8690,6 +8943,20 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <Class IRI="#Weight_gain"/>
         <Class IRI="#Goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weight_gain"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_carbs"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Weight_gain"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_protein"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Weight_lifting"/>
@@ -8872,12 +9139,18 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#CVD"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ΗΙΙΤ"/>
-        <Class IRI="#Exercise"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Κosher"/>
         <Class IRI="#Diet"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Adult"/>
+            <Class IRI="#Athlete"/>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_carbs"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
@@ -8901,6 +9174,33 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
+            <Class IRI="#CVD"/>
+            <Class IRI="#ExRedMeat"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#CVD"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Alcohol"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#CVD"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasIntensity"/>
+                <Class IRI="#Vigorous_intensity"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
             <Class IRI="#Caffeine_intolerance"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#restrictNutrient"/>
@@ -8917,6 +9217,16 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
             <Class IRI="#Sodium_deficiency"/>
         </ObjectIntersectionOf>
         <Class IRI="#Electrolytes_deficiency"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Calcium_deficiency"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#Calcium"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
@@ -9123,6 +9433,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <ObjectIntersectionOf>
             <Class IRI="#ExSugar"/>
+            <Class IRI="#Reduced_sugar"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#ExSugar"/>
             <Class IRI="#T2_Diabetes"/>
         </ObjectIntersectionOf>
         <Class abbreviatedIRI="owl:Nothing"/>
@@ -9229,6 +9546,16 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
+            <Class IRI="#Fructose_intolerance"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#restrictNutrient"/>
+                <Class IRI="#Fructose"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
             <Class IRI="#Garlic_allergy"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#excludeFood"/>
@@ -9256,6 +9583,136 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_carbs"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#Carbohydrate"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_electrolytes"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#Electrolyte"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_fat_intake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#Fat"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_fiber"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#Fiber"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_folic_acid_intake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#B9"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_iron_intake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#Iron"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_liquids"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#Fluid"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_protein"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#Protein"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_vitamin_A_intake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#A"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_vitamin_B12_intake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#B12"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_vitamin_C_intake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#C"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Increase_vitamin_D_intake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#D"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Iron_deficiency"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_vitamin_C_intake"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
@@ -9289,10 +9746,90 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
+            <Class IRI="#Magnesium_deficiency"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#Magnesium"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
             <Class IRI="#Milk_allergy"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#excludeFood"/>
                 <Class IRI="#Milk"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Musculoskeletal_problem"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeActivity"/>
+                <Class IRI="#HIIT"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Musculoskeletal_problem"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeActivity"/>
+                <Class IRI="#Jump_rope"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Musculoskeletal_problem"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeActivity"/>
+                <Class IRI="#Jumping_jacks"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Musculoskeletal_problem"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeActivity"/>
+                <Class IRI="#Jumping_lunge"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Musculoskeletal_problem"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeActivity"/>
+                <Class IRI="#Running"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Mustard_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Mustard"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Mustard_allergy"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Mustard_seed"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class abbreviatedIRI="owl:Nothing"/>
@@ -9329,6 +9866,36 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
+            <Class IRI="#Potassium_deficiency"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#Potassium"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Reduce_carbs"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#restrictNutrient"/>
+                <Class IRI="#Carbohydrate"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Reduce_fat_intake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#restrictNutrient"/>
+                <Class IRI="#Fat"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
             <Class IRI="#Reduce_fiber"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#restrictNutrient"/>
@@ -9343,6 +9910,26 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#restrictNutrient"/>
                 <Class IRI="#Protein"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Reduce_salt_intake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Salt"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Reduce_salt_intake"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#restrictNutrient"/>
+                <Class IRI="#Sodium"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class abbreviatedIRI="owl:Nothing"/>
@@ -9366,6 +9953,16 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Sodium_deficiency"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#goalNutrient"/>
+                <Class IRI="#Sodium"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class IRI="#Implicit_goal"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
@@ -9403,253 +10000,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#excludeFood"/>
                 <Class IRI="#Wheat"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Avocado"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Avocado_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Banana"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Banana_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Celery"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Celery_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Crustacean_shellfish"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Crustacean_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Egg"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Egg_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Fish"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Fish_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Flax"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Linseed_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Garlic"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Garlic_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Kiwi"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Kiwi_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Milk"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Milk_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Mollusc"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Mollusc_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Peach"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Peach_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Peanut"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Peanut_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Pollen"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Pollen_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Sesame"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Sesame_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Soy"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Soy_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Strawberry"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Strawberry_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Tree_nut"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Tree_nut_allergy"/>
-            </ObjectSomeValuesFrom>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
-                <Class IRI="#Wheat"/>
-            </ObjectSomeValuesFrom>
-            <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#hasCondition"/>
-                <Class IRI="#Wheat_allergy"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class abbreviatedIRI="owl:Nothing"/>
@@ -9712,13 +10062,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Dairy"/>
-        </ObjectSomeValuesFrom>
-        <Class IRI="#FoodExclusionDairy"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
             <Class IRI="#Egg"/>
         </ObjectSomeValuesFrom>
         <Class IRI="#ExEgg"/>
@@ -9726,23 +10069,9 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Egg"/>
-        </ObjectSomeValuesFrom>
-        <Class IRI="#FoodExclusionEgg"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
             <Class IRI="#Fish"/>
         </ObjectSomeValuesFrom>
         <Class IRI="#ExFish"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Fish"/>
-        </ObjectSomeValuesFrom>
-        <Class IRI="#FoodExclusionFish"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
@@ -9761,23 +10090,9 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Meat"/>
-        </ObjectSomeValuesFrom>
-        <Class IRI="#FoodExclusionMeat"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
             <Class IRI="#Mollusc"/>
         </ObjectSomeValuesFrom>
         <Class IRI="#ExMollusc"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Mollusc"/>
-        </ObjectSomeValuesFrom>
-        <Class IRI="#FoodExclusionMollusc"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
@@ -9803,23 +10118,9 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Red_meat"/>
-        </ObjectSomeValuesFrom>
-        <Class IRI="#FoodExclusionRedMeat"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
             <Class IRI="#Seafood"/>
         </ObjectSomeValuesFrom>
         <Class IRI="#ExSeafood"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Seafood"/>
-        </ObjectSomeValuesFrom>
-        <Class IRI="#FoodExclusionSeafood"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
@@ -9831,51 +10132,11 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <SubClassOf>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#Iron_deficiency"/>
-        </ObjectSomeValuesFrom>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasGoal"/>
-            <Class IRI="#Increase_iron_intake"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#Obesity"/>
-        </ObjectSomeValuesFrom>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#goalActivity"/>
-            <Class IRI="#Aerobic"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#Obesity"/>
-        </ObjectSomeValuesFrom>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#goalActivity"/>
-            <Class IRI="#Endurance_training"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
             <Class IRI="#Obesity"/>
         </ObjectSomeValuesFrom>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasGoal"/>
             <Class IRI="#Weight_loss"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#T2_Diabetes"/>
-        </ObjectSomeValuesFrom>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasGoal"/>
-            <Class IRI="#Reduced_sugar"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <DisjointClasses>
@@ -9885,10 +10146,6 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <DisjointClasses>
         <Class IRI="#Crustacean_allergy"/>
         <Class IRI="#Crustacean_shellfish"/>
-    </DisjointClasses>
-    <DisjointClasses>
-        <Class IRI="#CurrentDiet"/>
-        <Class IRI="#FoodExclusionDairy"/>
     </DisjointClasses>
     <DisjointClasses>
         <Class IRI="#Increase_carbs"/>
@@ -9948,6 +10205,10 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
         <Class IRI="#Food"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#excludeActivity"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#excludeFood"/>
         <Class IRI="#Person"/>
     </ObjectPropertyDomain>
@@ -9994,6 +10255,10 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#containsNutrient"/>
         <Class IRI="#Nutrient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#excludeActivity"/>
+        <Class IRI="#Activity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#excludeFood"/>
@@ -10198,6 +10463,11 @@ Beans can make you gassy</Literal>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
         <IRI>#Greek_yoghurt</IRI>
         <Literal>Greek yogurt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#HIIT</IRI>
+        <Literal xml:lang="en">High-intensity interval training</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -10489,11 +10759,6 @@ People with kidney disease must NOT eat food rich in potassium</Literal>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
         <IRI>#Yoghurt</IRI>
         <Literal>Yogurt</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#ΗΙΙΤ</IRI>
-        <Literal xml:lang="en">High-intensity interval training</Literal>
     </AnnotationAssertion>
 </Ontology>
 
