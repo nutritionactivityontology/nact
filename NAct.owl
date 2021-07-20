@@ -40,12 +40,13 @@ http://creativecommons.org/licenses/by-sa/3.0/</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal>* Current version *
+        <Literal xml:lang="en"># Current version:
+The NAct (Nutrition &amp; Activity) ontology is originally developed in the premises of the H2020 IA project PROTEIN (https://protein-h2020.eu/).
 
-Health and nutrition expertise contribution:
+## Main health and nutrition expertise contribution:
 Elena Lalama (Charité)
 
-Health, nutrition and dietetics guidelines: 
+## Health, nutrition and dietetics guidelines: 
 Saskia L. Wilson-Barnes (University of Surrey),
 Kathryn Hart (University of Surrey), 
 Véronique Cornelissen (KU Leuven), 
@@ -53,13 +54,9 @@ Roselien Buys (KU Leuven),
 Ioannis Pagkalos (International Hellenic University),
 Sofia Balula Dias (Universidade de Lisboa)
 
-Scientific supevision:
+## Scientific supevision:
 Kosmas Dimitropoulos (CERTH-ITI)
 Petros Daras (CERTH-ITI)</Literal>
-    </Annotation>
-    <Annotation>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <Literal>The ontology is originally developed in the premises of the H2020 IA project PROTEIN (https://protein-h2020.eu/).</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
