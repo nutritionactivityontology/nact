@@ -60,7 +60,7 @@ Petros Daras (CERTH-ITI)</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal>v1.4</Literal>
+        <Literal>v1.9.1</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#A"/>
@@ -225,6 +225,9 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Baker_yeast"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Balance_training"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Bamboo_shoot"/>
     </Declaration>
     <Declaration>
@@ -325,6 +328,9 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Breakfast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bream"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Bresaola"/>
@@ -864,6 +870,9 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Flexibility"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#Flexibility_training"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Flour"/>
     </Declaration>
     <Declaration>
@@ -928,6 +937,9 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Gluten-free"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gluten-free_products"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Gluten_allergy"/>
@@ -1282,6 +1294,9 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Low-fat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low-impact_exercise"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Low_intensity"/>
@@ -1827,7 +1842,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Reduce_salt_intake"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Reduced_sugar"/>
+        <Class IRI="#Reduce_sugar"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Resistance_training"/>
@@ -1840,6 +1855,9 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Rice_cake"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rice_flakes"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Rice_milk"/>
@@ -2049,7 +2067,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Spirulina"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Sports"/>
+        <Class IRI="#Sports_level"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Spring_onion"/>
@@ -2071,6 +2089,9 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Starchy_vegetable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stationary_cycling"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Steamed"/>
@@ -2131,6 +2152,9 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Sweet_potato"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Swimming"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Swiss_chard"/>
@@ -2394,13 +2418,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Zucchini"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Ηalal"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Ηeart_disease"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Κosher"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#containedInFood"/>
@@ -2431,6 +2449,9 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#goalNutrient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActivityLevel"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasAllergy"/>
@@ -2464,9 +2485,6 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#highIn"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#inBodyPart"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#includes"/>
@@ -2558,16 +2576,6 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Scarola"/>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="#Food_attribute"/>
-        <ObjectIntersectionOf>
-            <Class IRI="#Property"/>
-            <ObjectAllValuesFrom>
-                <ObjectProperty IRI="#containsFood"/>
-                <Class IRI="#Wheat"/>
-            </ObjectAllValuesFrom>
-        </ObjectIntersectionOf>
-    </EquivalentClasses>
-    <EquivalentClasses>
         <Class IRI="#Scallion"/>
         <Class IRI="#Spring_onion"/>
     </EquivalentClasses>
@@ -2619,7 +2627,7 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Aerobic"/>
-        <Class IRI="#Exercise"/>
+        <Class IRI="#Cardio"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Afternoon_snack"/>
@@ -2894,6 +2902,10 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Yeast"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Balance_training"/>
+        <Class IRI="#Exercise"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Bamboo_shoot"/>
         <Class IRI="#Vegetable"/>
     </SubClassOf>
@@ -3009,6 +3021,14 @@ Petros Daras (CERTH-ITI)</Literal>
             <ObjectProperty IRI="#highIn"/>
             <Class IRI="#C"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bent-over_row"/>
+        <Class IRI="#Resistance_training"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bent-over_row"/>
+        <Class IRI="#Strength_training"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bent-over_row"/>
@@ -3202,6 +3222,10 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Meal"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Bream"/>
+        <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Bresaola"/>
         <Class IRI="#Pork"/>
     </SubClassOf>
@@ -3353,7 +3377,21 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#CVD"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#goalActivity"/>
-            <Class IRI="#Aerobic"/>
+            <Class IRI="#Cardio"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVD"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
+            <Class IRI="#Endurance_training"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CVD"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
+            <Class IRI="#Strength_training"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -4140,7 +4178,7 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Cycling"/>
-        <Class IRI="#Exercise"/>
+        <Class IRI="#Cardio"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#D"/>
@@ -4347,6 +4385,14 @@ Petros Daras (CERTH-ITI)</Literal>
             <ObjectProperty IRI="#highIn"/>
             <Class IRI="#Fiber"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deadlift"/>
+        <Class IRI="#Resistance_training"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Deadlift"/>
+        <Class IRI="#Strength_training"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Deadlift"/>
@@ -4573,6 +4619,16 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Elder"/>
         <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Elder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
+            <ObjectUnionOf>
+                <Class IRI="#Balance_training"/>
+                <Class IRI="#Flexibility_training"/>
+            </ObjectUnionOf>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Electrolyte"/>
@@ -4883,6 +4939,10 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Activity_type"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Flexibility_training"/>
+        <Class IRI="#Exercise"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Flour"/>
         <Class IRI="#Food"/>
     </SubClassOf>
@@ -4892,6 +4952,10 @@ Petros Daras (CERTH-ITI)</Literal>
             <ObjectProperty IRI="#highIn"/>
             <Class IRI="#Gluten"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Fluid"/>
+        <Class IRI="#Food"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Fluid"/>
@@ -4926,6 +4990,10 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Food_allergy"/>
         <Class IRI="#Allergy"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Food_attribute"/>
+        <Class IRI="#Property"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Food_property"/>
@@ -4993,6 +5061,10 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Gluten-free"/>
         <Class IRI="#Food_attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gluten-free_products"/>
+        <Class IRI="#Alternatives"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Gluten_allergy"/>
@@ -5244,7 +5316,7 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Hiking"/>
-        <Class IRI="#Exercise"/>
+        <Class IRI="#Cardio"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Honey"/>
@@ -5544,7 +5616,7 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Jump_rope"/>
-        <Class IRI="#Exercise"/>
+        <Class IRI="#Cardio"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Jumping_jacks"/>
@@ -5683,13 +5755,6 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Lacto"/>
         <Class IRI="#Vegetarian"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Lacto"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Egg"/>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lacto-ovo"/>
@@ -5911,6 +5976,10 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Food_attribute"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Low-impact_exercise"/>
+        <Class IRI="#Exercise"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Low_intensity"/>
         <Class IRI="#Intensity"/>
     </SubClassOf>
@@ -5925,6 +5994,14 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Lung"/>
         <Class IRI="#Offal"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lunge"/>
+        <Class IRI="#Resistance_training"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Lunge"/>
+        <Class IRI="#Strength_training"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Lunge"/>
@@ -6583,6 +6660,13 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Obesity"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#goalActivity"/>
+            <Class IRI="#Aerobic"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Obesity"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#goalActivity"/>
             <Class IRI="#Endurance_training"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
@@ -6830,13 +6914,6 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Vegetarian"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Ovo"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Dairy"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Oyster"/>
         <Class IRI="#Mollusc"/>
     </SubClassOf>
@@ -6979,19 +7056,16 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Diet"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Pescatarian"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Meat"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Phosphorus"/>
         <Class IRI="#Macromineral"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pilates"/>
-        <Class IRI="#Exercise"/>
+        <Class IRI="#Flexibility_training"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pilates"/>
+        <Class IRI="#Low-impact_exercise"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pine_nut"/>
@@ -7023,6 +7097,10 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Plaice"/>
         <Class IRI="#Fish"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plank"/>
+        <Class IRI="#Strength_training"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Plank"/>
@@ -7242,6 +7320,10 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Pull-up"/>
+        <Class IRI="#Resistance_training"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pull-up"/>
         <Class IRI="#Workout"/>
     </SubClassOf>
     <SubClassOf>
@@ -7258,6 +7340,14 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Pumpkin_seed"/>
         <Class IRI="#Seed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push-up"/>
+        <Class IRI="#Resistance_training"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Push-up"/>
+        <Class IRI="#Strength_training"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Push-up"/>
@@ -7387,13 +7477,6 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Diet"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Red_meat_avoider"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Red_meat"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Red_pepper"/>
         <Class IRI="#Bell_pepper"/>
     </SubClassOf>
@@ -7426,7 +7509,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Goal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Reduced_sugar"/>
+        <Class IRI="#Reduce_sugar"/>
         <Class IRI="#Goal"/>
     </SubClassOf>
     <SubClassOf>
@@ -7451,6 +7534,10 @@ Petros Daras (CERTH-ITI)</Literal>
             <ObjectProperty IRI="#containsFood"/>
             <Class IRI="#Rice"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rice_flakes"/>
+        <Class IRI="#Gluten-free_products"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Rice_milk"/>
@@ -7567,7 +7654,7 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Running"/>
-        <Class IRI="#Exercise"/>
+        <Class IRI="#Cardio"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Rye"/>
@@ -8219,14 +8306,14 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Spinning"/>
-        <Class IRI="#Exercise"/>
+        <Class IRI="#Cycling"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Spirulina"/>
         <Class IRI="#Seaweed"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Sports"/>
+        <Class IRI="#Sports_level"/>
         <Class IRI="#Activity_level"/>
     </SubClassOf>
     <SubClassOf>
@@ -8243,6 +8330,14 @@ Petros Daras (CERTH-ITI)</Literal>
             <ObjectProperty IRI="#highIn"/>
             <Class IRI="#Salicylic_Acid"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squat"/>
+        <Class IRI="#Resistance_training"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Squat"/>
+        <Class IRI="#Strength_training"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Squat"/>
@@ -8281,6 +8376,14 @@ Petros Daras (CERTH-ITI)</Literal>
             <ObjectProperty IRI="#highIn"/>
             <Class IRI="#Starch"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stationary_cycling"/>
+        <Class IRI="#Cycling"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stationary_cycling"/>
+        <Class IRI="#Low-impact_exercise"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Steamed"/>
@@ -8385,6 +8488,14 @@ Petros Daras (CERTH-ITI)</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <Class IRI="#Cardio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Swimming"/>
+        <Class IRI="#Low-impact_exercise"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Swiss_chard"/>
         <Class IRI="#Dark_leafy_greens"/>
     </SubClassOf>
@@ -8439,7 +8550,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#T2_Diabetes"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#hasGoal"/>
-            <Class IRI="#Reduced_sugar"/>
+            <Class IRI="#Reduce_sugar"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8642,69 +8753,6 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Diet"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Vegan"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Bee_product"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegan"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Cod_liver_oil"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegan"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Dairy"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegan"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Egg"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegan"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Fish"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegan"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Fish_oil"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegan"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Meat"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegan"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Mollusc"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegan"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Seafood"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Vegetable"/>
         <Class IRI="#Food"/>
     </SubClassOf>
@@ -8726,41 +8774,6 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Vegetarian"/>
         <Class IRI="#Diet"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegetarian"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Cod_liver_oil"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegetarian"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Fish"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegetarian"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Fish_oil"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegetarian"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Meat"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Vegetarian"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Seafood"/>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Venison"/>
@@ -8840,7 +8853,11 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Walking"/>
-        <Class IRI="#Exercise"/>
+        <Class IRI="#Cardio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Walking"/>
+        <Class IRI="#Low-impact_exercise"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Walnut"/>
@@ -8957,7 +8974,7 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Weight_lifting"/>
-        <Class IRI="#Exercise"/>
+        <Class IRI="#Strength_training"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Weight_loss"/>
@@ -9102,7 +9119,15 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Yoga"/>
-        <Class IRI="#Exercise"/>
+        <Class IRI="#Balance_training"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yoga"/>
+        <Class IRI="#Flexibility_training"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Yoga"/>
+        <Class IRI="#Strength_training"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Yoghurt"/>
@@ -9128,16 +9153,8 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Squash"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Ηalal"/>
-        <Class IRI="#Diet"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Ηeart_disease"/>
         <Class IRI="#CVD"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Κosher"/>
-        <Class IRI="#Diet"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
@@ -9182,6 +9199,26 @@ Petros Daras (CERTH-ITI)</Literal>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#excludeFood"/>
                 <Class IRI="#Alcohol"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#CVD"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasActivityLevel"/>
+                <Class IRI="#Heavy_exercise"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#CVD"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasActivityLevel"/>
+                <Class IRI="#Sports_level"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class abbreviatedIRI="owl:Nothing"/>
@@ -9430,7 +9467,7 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <ObjectIntersectionOf>
             <Class IRI="#ExSugar"/>
-            <Class IRI="#Reduced_sugar"/>
+            <Class IRI="#Reduce_sugar"/>
         </ObjectIntersectionOf>
         <Class abbreviatedIRI="owl:Nothing"/>
     </SubClassOf>
@@ -9710,6 +9747,23 @@ Petros Daras (CERTH-ITI)</Literal>
             <ObjectProperty IRI="#hasGoal"/>
             <Class IRI="#Increase_vitamin_C_intake"/>
         </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Jogging"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasActivityLevel"/>
+                <ObjectUnionOf>
+                    <Class IRI="#Heavy_exercise"/>
+                    <Class IRI="#Sports_level"/>
+                </ObjectUnionOf>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#hasCondition"/>
+                <Class IRI="#T2_Diabetes"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
@@ -9993,6 +10047,16 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
+            <Class IRI="#Vegan"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#excludeFood"/>
+                <Class IRI="#Bee_product"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
             <Class IRI="#Wheat_allergy"/>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#excludeFood"/>
@@ -10041,6 +10105,13 @@ Petros Daras (CERTH-ITI)</Literal>
             <Class IRI="#Cod_liver_oil"/>
         </ObjectSomeValuesFrom>
         <Class IRI="#Cod_liver_oil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#excludeFood"/>
+            <Class IRI="#Cod_liver_oil"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#ExCod_liver_oil"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
@@ -10311,6 +10382,24 @@ Petros Daras (CERTH-ITI)</Literal>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Amine_intolerance</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Anaemia</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Anise_allergy</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#B1</IRI>
         <Literal xml:lang="en">Thiamin</Literal>
     </AnnotationAssertion>
@@ -10402,6 +10491,18 @@ Beans can make you gassy</Literal>
         <Literal xml:lang="en">Wiki note: not accepted as essential nutrients</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Celiac_disease</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Chamomille_allergy</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
         <IRI>#Chili_pepper</IRI>
         <Literal>Chilly pepper</Literal>
@@ -10453,6 +10554,11 @@ Beans can make you gassy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#GCIs</IRI>
+        <Literal>Helper classes, to articulate commonly used complex concepts in GCIs only once. Purpose: reduce reasoning KB. Otherwise all occurences of said complex concept would be attributed to different concepts within the same KB.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Grape</IRI>
         <Literal xml:lang="en">Botanically, grapes are berries, Nutritionally, if they don&apos;t share most pertinent attributes, they should be removed from this category.</Literal>
     </AnnotationAssertion>
@@ -10473,8 +10579,55 @@ Beans can make you gassy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Hyperthrophy</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#IBD</IRI>
         <Literal>Inflammatory Bowel Disease</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Implicit_goal</IRI>
+        <Literal>Helper class, for constructing the User KB.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Increase_TDEE</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Increase_activity_duration</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Increase_activity_intensity</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Increase_body_fat</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Increase_fruit_intake</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Increase_vegetable_intake</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10505,7 +10658,8 @@ People with kidney disease must NOT eat food rich in potassium</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Lacto-ovo</IRI>
-        <Literal xml:lang="en">Defined as lacto-ovo NON pescatarians (so exclude Fish)</Literal>
+        <Literal xml:lang="en">Defined as lacto-ovo NON pescatarians (so exclude Fish).
+Axioms correspond completely to the parent concept &quot;Vegetarian&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -10534,8 +10688,20 @@ People with kidney disease must NOT eat food rich in potassium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Lupin_allergy</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Mackerel</IRI>
         <Literal>higher levels of mercury contamination</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Maintain_weight</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10561,6 +10727,12 @@ People with kidney disease must NOT eat food rich in potassium</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Nutritional_yeast</IRI>
         <Literal>It is naturally low in sodium and calories, as well as fat-free, sugar-free, gluten-free and vegan.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Passion_fruit_allergy</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
@@ -10589,12 +10761,36 @@ People with kidney disease must NOT eat food rich in potassium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pregnancy</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Previous_MI</IRI>
         <Literal>Myocardial_infarction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Previous_Stroke</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Reduce_TDEE</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Reduce_body_fat</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
-        <IRI>#Reduced_sugar</IRI>
+        <IRI>#Reduce_sugar</IRI>
         <Literal>Semi-sweet</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
@@ -10686,6 +10882,24 @@ People with kidney disease must NOT eat food rich in potassium</Literal>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
         <IRI>#Sugar-free</IRI>
         <Literal>No sugar</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sulfite_intolerance</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sulphite_allergy</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sulphur_dioxide_allergy</IRI>
+        <Literal>Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

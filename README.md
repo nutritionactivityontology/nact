@@ -9,7 +9,7 @@ ___
 <https://nutritionactivityontology.github.io/nact/> 
 
 ## Current version
-v1.4
+v1.9.1
 
 ## Licence
 Published under [Creative Commons Attribution-ShareAlike License (version 3.0)](http://creativecommons.org/licenses/by-sa/3.0/)
@@ -29,7 +29,7 @@ Dorothea Tsatsou
 
 
 ### Acknowledgements
-The work (v1.4) has been funded by the H2020 IA project [PROTEIN - PeRsOnalized nutriTion for hEalthy livINg](https://protein-h2020.eu/).
+The work (since v1 and until v1.9.1) has been funded by the H2020 IA project [PROTEIN - PeRsOnalized nutriTion for hEalthy livINg](https://protein-h2020.eu/).
 
 #### Main health and nutrition expertise contribution
 Elena Lalama 
