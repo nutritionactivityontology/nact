@@ -44,7 +44,7 @@ Dr. Petros Daras
 *The Centre for Research and Technology Hellas ([CERTH](https://www.certh.gr/))*
 
 ## Reference
-D. Tsatsou, Elena Lalama, S. L. Wilson-Barnes, K. Hart, V. Cornelissen, R. Buys, I. Pagkalos, S. Balula Dias, K. Dimitropoulos, P. Daras. NAct: The Nutrition & Activity Ontology for healthy living. Formal Ontology in Information Systems: Proceedings of the 12th International Conference (FOIS 2021). IOS Press, 2021. *(to appear)*
+Tsatsou, D., Lalama, E., Wilson-Barnes, S.L., Hart, K., Cornelissen, V., Buys, R., Pagkalos, I., Balula Dias, S., Dimitropoulos, K. and Daras, P., 2021. NAct: The Nutrition & Activity Ontology for Healthy Living. In *Formal Ontology in Information Systems* (pp. 129-143). IOS Press.
 
 ## Publications
-D. Tsatsou, Elena Lalama, S. L. Wilson-Barnes, K. Hart, V. Cornelissen, R. Buys, I. Pagkalos, S. Balula Dias, K. Dimitropoulos, P. Daras. NAct: The Nutrition & Activity Ontology for healthy living. Formal Ontology in Information Systems: Proceedings of the 12th International Conference (FOIS 2021). IOS Press, 2021. *(to appear)*
+Tsatsou, D., Lalama, E., Wilson-Barnes, S.L., Hart, K., Cornelissen, V., Buys, R., Pagkalos, I., Balula Dias, S., Dimitropoulos, K. and Daras, P., 2021. NAct: The Nutrition & Activity Ontology for Healthy Living. In *Formal Ontology in Information Systems* (pp. 129-143). IOS Press.
