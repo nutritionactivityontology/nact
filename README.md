@@ -12,7 +12,7 @@ ___
 v1.9.1
 
 ## Licence
-Published under [Creative Commons Attribution-ShareAlike License (version 3.0)](http://creativecommons.org/licenses/by-sa/3.0/)
+Published under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
 ____
 ## About
 The Nutrition and Activity Ontology (NAct) is designed to drive personalised nutritional and physical activity recommendations and effectively support healthy living, through a reasoning-based AI decision support system. NAct coalesces nutritional, medical, behavioural and lifestyle indicators with dietary and physical activity directives.
