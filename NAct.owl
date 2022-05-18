@@ -810,18 +810,6 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Extensions"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Extremely_obese_adolescent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Extremely_obese_adult"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Extremely_obese_child"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Extremely_obese_elder"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#FODMAPs_intolerance"/>
     </Declaration>
     <Declaration>
@@ -1015,18 +1003,6 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Hazelnut"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Healthy_adolescent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Healthy_adult"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Healthy_child"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Healthy_elder"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Heart"/>
@@ -1512,18 +1488,6 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Oatmeal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Obese_adolescent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Obese_adult"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Obese_child"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Obese_elder"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Obesity"/>
     </Declaration>
     <Declaration>
@@ -1576,18 +1540,6 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Overweight"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Overweight_adolescent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Overweight_adult"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Overweight_child"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Overweight_elder"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Ovo"/>
@@ -2238,16 +2190,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Twist"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Underweight_adolescent"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Underweight_adult"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Underweight_child"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#Underweight_elder"/>
+        <Class IRI="#Underweight"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Uni"/>
@@ -2784,6 +2727,20 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Person"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Athlete"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_carbs"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Athlete"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasGoal"/>
+            <Class IRI="#Increase_protein"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Aubergine"/>
         <Class IRI="#Nightshades"/>
     </SubClassOf>
@@ -2979,6 +2936,13 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Legume"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Bean"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Bee_product"/>
         <Class IRI="#Food"/>
     </SubClassOf>
@@ -3136,6 +3100,13 @@ Petros Daras (CERTH-ITI)</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Biscuit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Bison"/>
         <Class IRI="#Red_meat"/>
     </SubClassOf>
@@ -3201,6 +3172,13 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Bread"/>
         <Class IRI="#Compound_food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bread"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Bread"/>
@@ -3435,6 +3413,13 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Cake"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cake"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
             <Class IRI="#Gluten"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
@@ -3469,6 +3454,13 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Calzone"/>
         <Class IRI="#Compound_food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Calzone"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Calzone"/>
@@ -3751,13 +3743,6 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Citrus"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#containsNutrient"/>
-            <Class IRI="#Carbohydrate"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Citrus"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#containsNutrient"/>
             <Class IRI="#Copper"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
@@ -3953,6 +3938,13 @@ Petros Daras (CERTH-ITI)</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Cookie"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Cooking-preparation_style"/>
         <Class IRI="#Property"/>
     </SubClassOf>
@@ -3972,12 +3964,26 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Corn"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corn"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
             <Class IRI="#Salicylic_Acid"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Corn_starch"/>
         <Class IRI="#Culinary_starches"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Corn_starch"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Corn_starch"/>
@@ -4737,22 +4743,6 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Workout"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Extremely_obese_adolescent"/>
-        <Class IRI="#Adolescent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Extremely_obese_adult"/>
-        <Class IRI="#Adult"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Extremely_obese_child"/>
-        <Class IRI="#Child"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Extremely_obese_elder"/>
-        <Class IRI="#Elder"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#FODMAPs_intolerance"/>
         <Class IRI="#Intolerance"/>
     </SubClassOf>
@@ -4968,6 +4958,13 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Focaccia"/>
         <Class IRI="#Compound_food"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Focaccia"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Focaccia"/>
@@ -5257,22 +5254,6 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Hazelnut"/>
         <Class IRI="#Tree_nut"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Healthy_adolescent"/>
-        <Class IRI="#Adolescent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Healthy_adult"/>
-        <Class IRI="#Adult"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Healthy_child"/>
-        <Class IRI="#Child"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Healthy_elder"/>
-        <Class IRI="#Elder"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Heart"/>
@@ -6298,6 +6279,13 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Milk"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Milk"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
             <Class IRI="#Magnesium"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
@@ -6609,50 +6597,6 @@ Petros Daras (CERTH-ITI)</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Obese_adolescent"/>
-        <Class IRI="#Adolescent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Obese_adolescent"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#Obesity"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Obese_adult"/>
-        <Class IRI="#Adult"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Obese_adult"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#Obesity"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Obese_child"/>
-        <Class IRI="#Child"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Obese_child"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#Obesity"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Obese_elder"/>
-        <Class IRI="#Elder"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Obese_elder"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#Obesity"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Obesity"/>
         <Class IRI="#Condition"/>
     </SubClassOf>
@@ -6866,50 +6810,6 @@ Petros Daras (CERTH-ITI)</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Overweight_adolescent"/>
-        <Class IRI="#Adolescent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Overweight_adolescent"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#Overweight"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Overweight_adult"/>
-        <Class IRI="#Adult"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Overweight_adult"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#Overweight"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Overweight_child"/>
-        <Class IRI="#Child"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Overweight_child"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#Overweight"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Overweight_elder"/>
-        <Class IRI="#Elder"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Overweight_elder"/>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasCondition"/>
-            <Class IRI="#Overweight"/>
-        </ObjectAllValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Ovo"/>
         <Class IRI="#Vegetarian"/>
     </SubClassOf>
@@ -6965,6 +6865,13 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#containsFood"/>
             <Class IRI="#Wheat"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pasta"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -7095,6 +7002,13 @@ Petros Daras (CERTH-ITI)</Literal>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Pizza"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Plaice"/>
         <Class IRI="#Fish"/>
     </SubClassOf>
@@ -7188,6 +7102,13 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#highIn"/>
             <Class IRI="#B6"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Potato"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#Carbohydrate"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8725,20 +8646,8 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Workout"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Underweight_adolescent"/>
-        <Class IRI="#Adolescent"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Underweight_adult"/>
-        <Class IRI="#Adult"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Underweight_child"/>
-        <Class IRI="#Child"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#Underweight_elder"/>
-        <Class IRI="#Elder"/>
+        <Class IRI="#Underweight"/>
+        <Class IRI="#Condition"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Uni"/>
@@ -9155,16 +9064,6 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Ηeart_disease"/>
         <Class IRI="#CVD"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#Adult"/>
-            <Class IRI="#Athlete"/>
-        </ObjectIntersectionOf>
-        <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasGoal"/>
-            <Class IRI="#Increase_carbs"/>
-        </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
@@ -9761,6 +9660,16 @@ Petros Daras (CERTH-ITI)</Literal>
             <ObjectSomeValuesFrom>
                 <ObjectProperty IRI="#hasCondition"/>
                 <Class IRI="#T2_Diabetes"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Kidney_disease"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#restrictNutrient"/>
+                <Class IRI="#Potassium"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
         <Class abbreviatedIRI="owl:Nothing"/>
@@ -10633,17 +10542,6 @@ No axioms are expected to be included in this version.</Literal>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Iron</IRI>
         <Literal>Dietary iron is found in two forms: heme and nonheme iron. Red meat (beef, lamb, and pork) has a 10-fold higher heme content than white meat (e.g., chicken) (Hooda et al., 2014).</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Kidney_disease</IRI>
-        <Literal xml:lang="en">Temp rule:
-
-Kidney_disease AND richIn Potassium IMPLIES bottom
-
-=
-
-People with kidney disease must NOT eat food rich in potassium</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>

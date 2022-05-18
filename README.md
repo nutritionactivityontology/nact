@@ -9,7 +9,10 @@ ___
 <https://nutritionactivityontology.github.io/nact/> 
 
 ## Current version
-v1.9.1
+v1.9.5
+
+## To Do
+Update documentation
 
 ## Licence
 Published under [Creative Commons Attribution Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode)
