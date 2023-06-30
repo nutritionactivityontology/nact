@@ -51,3 +51,5 @@ Tsatsou, D., Lalama, E., Wilson-Barnes, S.L., Hart, K., Cornelissen, V., Buys, R
 
 ## Publications
 Tsatsou, D., Lalama, E., Wilson-Barnes, S.L., Hart, K., Cornelissen, V., Buys, R., Pagkalos, I., Balula Dias, S., Dimitropoulos, K. and Daras, P., 2021. NAct: The Nutrition & Activity Ontology for Healthy Living. In *Formal Ontology in Information Systems* (pp. 129-143). IOS Press.
+
+Stefanidis, Kiriakos, Dorothea Tsatsou, Dimitrios Konstantinidis, Lazaros Gymnopoulos, Petros Daras, Saskia Wilson-Barnes, Kathryn Hart et al. "PROTEIN AI Advisor: A Knowledge-Based Recommendation Framework Using Expert-Validated Meals for Healthy Diets." Nutrients 14, no. 20 (2022): 4435.
