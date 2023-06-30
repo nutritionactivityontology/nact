@@ -40,7 +40,7 @@ Elena Lalama
 *[Charité – Universitätsmedizin Berlin](https://www.charite.de/en/)*
 
 #### Scientific supervision
-Dr. Kosmas Dimitropoulos
+Dr. Kosmas Dimitropoulos,
 Dr. Petros Daras 
 
 *Information Technologies Institute ([ITI](https://www.iti.gr/))* -
