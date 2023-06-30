@@ -60,7 +60,7 @@ Petros Daras (CERTH-ITI)</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
-        <Literal>v1.9.1</Literal>
+        <Literal>v1.9.5</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#A"/>
@@ -100,6 +100,45 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Allium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Cod_liver_oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_CrustShellfish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Dairy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Egg"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Fish"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Fish_oil"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Mollusc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Pork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Rabbit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Red_Meat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Seafood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Allowed_Sugar"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Allspice"/>
@@ -193,6 +232,9 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#B3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#B4"/>
     </Declaration>
     <Declaration>
         <Class IRI="#B5"/>
@@ -510,9 +552,6 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Cholesterol"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#Choline"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#Cinnamon"/>
     </Declaration>
     <Declaration>
@@ -657,6 +696,9 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#D"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#D3"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Dairy"/>
     </Declaration>
     <Declaration>
@@ -763,45 +805,6 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Espresso"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExCod_liver_oil"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExCrustShellfish"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExDairy"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExEgg"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExFish"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExFish_oil"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExMeat"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExMollusc"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExPork"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExRabbit"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExRedMeat"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExSeafood"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ExSugar"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Exercise"/>
@@ -1164,6 +1167,12 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#K"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#K1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#K2"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#Kale"/>
     </Declaration>
     <Declaration>
@@ -1279,6 +1288,9 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <Class IRI="#Low_sodium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Low_sugar"/>
     </Declaration>
     <Declaration>
         <Class IRI="#Lunch"/>
@@ -2364,6 +2376,15 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Ηeart_disease"/>
     </Declaration>
     <Declaration>
+        <ObjectProperty IRI="#allowedActivity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#allowedFood"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#allowedNutrient"/>
+    </Declaration>
+    <Declaration>
         <ObjectProperty IRI="#containedInFood"/>
     </Declaration>
     <Declaration>
@@ -2371,12 +2392,6 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#containsNutrient"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#excludeActivity"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#excludeFood"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#followsDiet"/>
@@ -2406,9 +2421,6 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectProperty IRI="#hasCondition"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasDiet"/>
-    </Declaration>
-    <Declaration>
         <ObjectProperty IRI="#hasFood"/>
     </Declaration>
     <Declaration>
@@ -2418,10 +2430,10 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectProperty IRI="#hasIntensity"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasInterest"/>
+        <ObjectProperty IRI="#hasIntolerance"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="#hasIntolerance"/>
+        <ObjectProperty IRI="#hasPreference"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#hasProperty"/>
@@ -2434,9 +2446,6 @@ Petros Daras (CERTH-ITI)</Literal>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#lowIn"/>
-    </Declaration>
-    <Declaration>
-        <ObjectProperty IRI="#restrictNutrient"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/contributor"/>
@@ -2486,6 +2495,18 @@ Petros Daras (CERTH-ITI)</Literal>
     <Declaration>
         <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
     </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#changeNote"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+    </Declaration>
     <EquivalentClasses>
         <Class IRI="#Arugula"/>
         <Class IRI="#Rocket"/>
@@ -2512,7 +2533,7 @@ Petros Daras (CERTH-ITI)</Literal>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#Edamame"/>
-        <Class IRI="#Soybean"/>
+        <Class IRI="#Soya_bean"/>
     </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="#Escarole"/>
@@ -2591,6 +2612,58 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Allium"/>
         <Class IRI="#Bulb_and_stem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Cod_liver_oil"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_CrustShellfish"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Dairy"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Egg"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Fish"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Fish_oil"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Meat"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Mollusc"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Pork"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Rabbit"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Red_Meat"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Seafood"/>
+        <Class IRI="#GCIs"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Allowed_Sugar"/>
+        <Class IRI="#GCIs"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Allspice"/>
@@ -2816,6 +2889,10 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#B3"/>
+        <Class IRI="#B"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#B4"/>
         <Class IRI="#B"/>
     </SubClassOf>
     <SubClassOf>
@@ -3693,10 +3770,6 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Biochemical_indicator"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#Choline"/>
-        <Class IRI="#B"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#Cinnamon"/>
         <Class IRI="#Spice"/>
     </SubClassOf>
@@ -4191,6 +4264,10 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Vitamin"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#D3"/>
+        <Class IRI="#D"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Dairy"/>
         <Class IRI="#Food"/>
     </SubClassOf>
@@ -4681,58 +4758,6 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Espresso"/>
         <Class IRI="#Coffee"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExCod_liver_oil"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExCrustShellfish"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExDairy"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExEgg"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExFish"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExFish_oil"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExMeat"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExMollusc"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExPork"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExRabbit"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExRedMeat"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExSeafood"/>
-        <Class IRI="#GCIs"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#ExSugar"/>
-        <Class IRI="#GCIs"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Exercise"/>
@@ -5612,6 +5637,14 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Vitamin"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#K1"/>
+        <Class IRI="#K"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#K2"/>
+        <Class IRI="#K"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Kale"/>
         <Class IRI="#Cruciferous"/>
     </SubClassOf>
@@ -5966,6 +5999,10 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Low_sodium"/>
+        <Class IRI="#Food_attribute"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Low_sugar"/>
         <Class IRI="#Food_attribute"/>
     </SubClassOf>
     <SubClassOf>
@@ -7909,15 +7946,15 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <Class IRI="#Seed"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#containsNutrient"/>
-            <Class IRI="#Vitamin"/>
+            <ObjectProperty IRI="#hasProperty"/>
+            <Class IRI="#Antioxidant"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Seed"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="#hasProperty"/>
-            <Class IRI="#Antioxidant"/>
+            <ObjectProperty IRI="#highIn"/>
+            <Class IRI="#E"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
@@ -8627,6 +8664,13 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Superfood"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="#Turmeric"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#hasProperty"/>
+            <Class IRI="#Anti-inflammatory"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="#Turnip"/>
         <Class IRI="#Cruciferous"/>
     </SubClassOf>
@@ -9067,9 +9111,212 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Cod_liver_oil"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Cod_liver_oil"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_CrustShellfish"/>
+            <Class IRI="#Kosher"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Dairy"/>
+            <Class IRI="#Ovo"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Dairy"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Egg"/>
+            <Class IRI="#Egg_allergy"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Egg"/>
+            <Class IRI="#Lacto"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Egg"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Fish"/>
+            <Class IRI="#Fish_allergy"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Fish"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Fish"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Fish_oil"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Fish_oil"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Meat"/>
+            <Class IRI="#Pescatarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Meat"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Meat"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Mollusc"/>
+            <Class IRI="#Kosher"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Mollusc"/>
+            <Class IRI="#Mollusc_allergy"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Mollusc"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Mollusc"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Pork"/>
+            <Class IRI="#Halal"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Pork"/>
+            <Class IRI="#Kosher"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Rabbit"/>
+            <Class IRI="#Kosher"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Red_Meat"/>
+            <Class IRI="#CVD"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Red_Meat"/>
+            <Class IRI="#Red_meat_avoider"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Seafood"/>
+            <Class IRI="#Vegan"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Seafood"/>
+            <Class IRI="#Vegetarian"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Sugar"/>
+            <Class IRI="#Reduce_sugar"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <Class IRI="#Allowed_Sugar"/>
+            <Class IRI="#T2_Diabetes"/>
+        </ObjectIntersectionOf>
+        <Class abbreviatedIRI="owl:Nothing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
             <Class IRI="#Avocado_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Avocado"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9079,7 +9326,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Banana_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Banana"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9088,15 +9335,8 @@ Petros Daras (CERTH-ITI)</Literal>
     <SubClassOf>
         <ObjectIntersectionOf>
             <Class IRI="#CVD"/>
-            <Class IRI="#ExRedMeat"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#CVD"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Alcohol"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9136,7 +9376,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Caffeine_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#restrictNutrient"/>
+                <ObjectProperty IRI="#allowedNutrient"/>
                 <Class IRI="#Caffeine"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9165,7 +9405,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Celery_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Celery"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9175,7 +9415,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Crustacean_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Crustacean_shellfish"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9183,205 +9423,9 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <ObjectIntersectionOf>
-            <Class IRI="#Egg_allergy"/>
-            <Class IRI="#ExEgg"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExCod_liver_oil"/>
-            <Class IRI="#Vegan"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExCod_liver_oil"/>
-            <Class IRI="#Vegetarian"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExCrustShellfish"/>
-            <Class IRI="#Kosher"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExDairy"/>
-            <Class IRI="#Ovo"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExDairy"/>
-            <Class IRI="#Vegan"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExEgg"/>
-            <Class IRI="#Lacto"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExEgg"/>
-            <Class IRI="#Vegan"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExFish"/>
-            <Class IRI="#Fish_allergy"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExFish"/>
-            <Class IRI="#Vegan"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExFish"/>
-            <Class IRI="#Vegetarian"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExFish_oil"/>
-            <Class IRI="#Vegan"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExFish_oil"/>
-            <Class IRI="#Vegetarian"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExMeat"/>
-            <Class IRI="#Pescatarian"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExMeat"/>
-            <Class IRI="#Vegan"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExMeat"/>
-            <Class IRI="#Vegetarian"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExMollusc"/>
-            <Class IRI="#Kosher"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExMollusc"/>
-            <Class IRI="#Mollusc_allergy"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExMollusc"/>
-            <Class IRI="#Vegan"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExMollusc"/>
-            <Class IRI="#Vegetarian"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExPork"/>
-            <Class IRI="#Halal"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExPork"/>
-            <Class IRI="#Kosher"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExRabbit"/>
-            <Class IRI="#Kosher"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExRedMeat"/>
-            <Class IRI="#Red_meat_avoider"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExSeafood"/>
-            <Class IRI="#Vegan"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExSeafood"/>
-            <Class IRI="#Vegetarian"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExSugar"/>
-            <Class IRI="#Reduce_sugar"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
-            <Class IRI="#ExSugar"/>
-            <Class IRI="#T2_Diabetes"/>
-        </ObjectIntersectionOf>
-        <Class abbreviatedIRI="owl:Nothing"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectIntersectionOf>
             <Class IRI="#FODMAPs_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Amaranth"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9391,7 +9435,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#FODMAPs_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Barley"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9401,7 +9445,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#FODMAPs_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Garlic"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9411,7 +9455,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#FODMAPs_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Legume"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9421,7 +9465,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#FODMAPs_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Milk"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9431,7 +9475,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#FODMAPs_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Onion"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9441,7 +9485,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#FODMAPs_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Rye"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9451,7 +9495,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#FODMAPs_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Wheat"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9461,7 +9505,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#FODMAPs_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Yoghurt"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9471,7 +9515,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Fructose_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Fruit"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9481,7 +9525,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Fructose_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#restrictNutrient"/>
+                <ObjectProperty IRI="#allowedNutrient"/>
                 <Class IRI="#Fructose"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9491,7 +9535,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Garlic_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Garlic"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9501,7 +9545,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Gluten_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#restrictNutrient"/>
+                <ObjectProperty IRI="#allowedNutrient"/>
                 <Class IRI="#Gluten"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9511,7 +9555,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Gluten_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#restrictNutrient"/>
+                <ObjectProperty IRI="#allowedNutrient"/>
                 <Class IRI="#Gluten"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9668,7 +9712,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Kidney_disease"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#restrictNutrient"/>
+                <ObjectProperty IRI="#allowedNutrient"/>
                 <Class IRI="#Potassium"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9678,7 +9722,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Kiwi_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Kiwi"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9688,7 +9732,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Lactose_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#restrictNutrient"/>
+                <ObjectProperty IRI="#allowedNutrient"/>
                 <Class IRI="#Lactose"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9698,7 +9742,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Linseed_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Flax"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9718,7 +9762,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Milk_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Milk"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9728,7 +9772,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Musculoskeletal_problem"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeActivity"/>
+                <ObjectProperty IRI="#allowedActivity"/>
                 <Class IRI="#HIIT"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9738,7 +9782,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Musculoskeletal_problem"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeActivity"/>
+                <ObjectProperty IRI="#allowedActivity"/>
                 <Class IRI="#Jump_rope"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9748,7 +9792,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Musculoskeletal_problem"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeActivity"/>
+                <ObjectProperty IRI="#allowedActivity"/>
                 <Class IRI="#Jumping_jacks"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9758,7 +9802,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Musculoskeletal_problem"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeActivity"/>
+                <ObjectProperty IRI="#allowedActivity"/>
                 <Class IRI="#Jumping_lunge"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9768,7 +9812,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Musculoskeletal_problem"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeActivity"/>
+                <ObjectProperty IRI="#allowedActivity"/>
                 <Class IRI="#Running"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9778,7 +9822,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Mustard_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Mustard"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9788,7 +9832,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Mustard_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Mustard_seed"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9798,7 +9842,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Peach_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Peach"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9808,7 +9852,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Peanut_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Peanut"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9818,7 +9862,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Pollen_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Pollen"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9838,7 +9882,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Reduce_carbs"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#restrictNutrient"/>
+                <ObjectProperty IRI="#allowedNutrient"/>
                 <Class IRI="#Carbohydrate"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9848,7 +9892,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Reduce_fat_intake"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#restrictNutrient"/>
+                <ObjectProperty IRI="#allowedNutrient"/>
                 <Class IRI="#Fat"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9858,7 +9902,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Reduce_fiber"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#restrictNutrient"/>
+                <ObjectProperty IRI="#allowedNutrient"/>
                 <Class IRI="#Fiber"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9868,7 +9912,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Reduce_protein"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#restrictNutrient"/>
+                <ObjectProperty IRI="#allowedNutrient"/>
                 <Class IRI="#Protein"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9878,7 +9922,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Reduce_salt_intake"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Salt"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9888,7 +9932,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Reduce_salt_intake"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#restrictNutrient"/>
+                <ObjectProperty IRI="#allowedNutrient"/>
                 <Class IRI="#Sodium"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9898,7 +9942,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Salicylates_intolerance"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#SalicylateFoods"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9908,7 +9952,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Sesame_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Sesame"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9928,7 +9972,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Soy_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Soy"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9938,7 +9982,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Strawberry_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Strawberry"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9948,7 +9992,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Tree_nut_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Tree_nut"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9958,7 +10002,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Vegan"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Bee_product"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -9968,7 +10012,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectIntersectionOf>
             <Class IRI="#Wheat_allergy"/>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="#excludeFood"/>
+                <ObjectProperty IRI="#allowedFood"/>
                 <Class IRI="#Wheat"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
@@ -10010,101 +10054,101 @@ Petros Daras (CERTH-ITI)</Literal>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
+            <Class IRI="#Cod_liver_oil"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#Allowed_Cod_liver_oil"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Cod_liver_oil"/>
         </ObjectSomeValuesFrom>
         <Class IRI="#Cod_liver_oil"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
-            <Class IRI="#Cod_liver_oil"/>
-        </ObjectSomeValuesFrom>
-        <Class IRI="#ExCod_liver_oil"/>
-    </SubClassOf>
-    <SubClassOf>
-        <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Crustacean_shellfish"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExCrustShellfish"/>
+        <Class IRI="#Allowed_CrustShellfish"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Dairy"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExDairy"/>
+        <Class IRI="#Allowed_Dairy"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Egg"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExEgg"/>
+        <Class IRI="#Allowed_Egg"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Fish"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExFish"/>
+        <Class IRI="#Allowed_Fish"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Fish_oil"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExFish_oil"/>
+        <Class IRI="#Allowed_Fish_oil"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Meat"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExMeat"/>
+        <Class IRI="#Allowed_Meat"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Mollusc"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExMollusc"/>
+        <Class IRI="#Allowed_Mollusc"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Pork"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExPork"/>
+        <Class IRI="#Allowed_Pork"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Rabbit"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExRabbit"/>
+        <Class IRI="#Allowed_Rabbit"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Red_meat"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExRedMeat"/>
+        <Class IRI="#Allowed_Red_Meat"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Seafood"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExSeafood"/>
+        <Class IRI="#Allowed_Seafood"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="#excludeFood"/>
+            <ObjectProperty IRI="#allowedFood"/>
             <Class IRI="#Sugar"/>
         </ObjectSomeValuesFrom>
-        <Class IRI="#ExSugar"/>
+        <Class IRI="#Allowed_Sugar"/>
     </SubClassOf>
     <SubClassOf>
         <ObjectSomeValuesFrom>
@@ -10139,10 +10183,6 @@ Petros Daras (CERTH-ITI)</Literal>
             <Class IRI="#Fat"/>
         </ObjectSomeValuesFrom>
     </DisjointClasses>
-    <EquivalentObjectProperties>
-        <ObjectProperty IRI="#followsDiet"/>
-        <ObjectProperty IRI="#hasDiet"/>
-    </EquivalentObjectProperties>
     <SubObjectPropertyOf>
         <ObjectProperty IRI="#hasAllergy"/>
         <ObjectProperty IRI="#hasCondition"/>
@@ -10164,11 +10204,7 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectProperty IRI="#containsFood"/>
     </InverseObjectProperties>
     <InverseObjectProperties>
-        <ObjectProperty IRI="#containsNutrient"/>
-        <ObjectProperty IRI="#freeOf"/>
-    </InverseObjectProperties>
-    <InverseObjectProperties>
-        <ObjectProperty IRI="#hasInterest"/>
+        <ObjectProperty IRI="#hasPreference"/>
         <ObjectProperty IRI="#includes"/>
     </InverseObjectProperties>
     <SymmetricObjectProperty>
@@ -10178,16 +10214,20 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectProperty IRI="#containsFood"/>
     </SymmetricObjectProperty>
     <ObjectPropertyDomain>
+        <ObjectProperty IRI="#allowedActivity"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#allowedFood"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#allowedNutrient"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
         <ObjectProperty IRI="#containsNutrient"/>
         <Class IRI="#Food"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#excludeActivity"/>
-        <Class IRI="#Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#excludeFood"/>
-        <Class IRI="#Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#followsDiet"/>
@@ -10198,8 +10238,8 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Food"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="#goalNutrient"/>
-        <Class IRI="#Goal"/>
+        <ObjectProperty IRI="#hasActivityLevel"/>
+        <Class IRI="#Activity"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasAllergy"/>
@@ -10207,10 +10247,6 @@ Petros Daras (CERTH-ITI)</Literal>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
         <ObjectProperty IRI="#hasCondition"/>
-        <Class IRI="#Person"/>
-    </ObjectPropertyDomain>
-    <ObjectPropertyDomain>
-        <ObjectProperty IRI="#hasGoal"/>
         <Class IRI="#Person"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
@@ -10230,16 +10266,20 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Food"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#containsNutrient"/>
-        <Class IRI="#Nutrient"/>
-    </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#excludeActivity"/>
+        <ObjectProperty IRI="#allowedActivity"/>
         <Class IRI="#Activity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="#excludeFood"/>
+        <ObjectProperty IRI="#allowedFood"/>
         <Class IRI="#Food"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#allowedNutrient"/>
+        <Class IRI="#Nutrient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#containsNutrient"/>
+        <Class IRI="#Nutrient"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#followsDiet"/>
@@ -10250,8 +10290,16 @@ Petros Daras (CERTH-ITI)</Literal>
         <Class IRI="#Nutrient"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
+        <ObjectProperty IRI="#goalActivity"/>
+        <Class IRI="#Activity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
         <ObjectProperty IRI="#goalNutrient"/>
         <Class IRI="#Nutrient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasActivityLevel"/>
+        <Class IRI="#Activity_level"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
         <ObjectProperty IRI="#hasAllergy"/>
@@ -10285,10 +10333,94 @@ Petros Daras (CERTH-ITI)</Literal>
         <ObjectProperty IRI="#lowIn"/>
         <Class IRI="#Nutrient"/>
     </ObjectPropertyRange>
-    <ObjectPropertyRange>
-        <ObjectProperty IRI="#restrictNutrient"/>
-        <Class IRI="#Nutrient"/>
-    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#A</IRI>
+        <Literal xml:lang="en">Vitamin_A</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#Alcohol</IRI>
+        <Literal xml:lang="en">Alcoholic_beverage</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Cod_liver_oil</IRI>
+        <Literal xml:lang="en">Was:
+ExCod_liver_oil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_CrustShellfish</IRI>
+        <Literal xml:lang="en">Was:
+ExCrustShellfish</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Dairy</IRI>
+        <Literal xml:lang="en">Was:
+ExDairy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Egg</IRI>
+        <Literal xml:lang="en">Was:
+ExEgg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Fish</IRI>
+        <Literal xml:lang="en">Was:
+ExFish</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Fish_oil</IRI>
+        <Literal xml:lang="en">Was:
+ExFish_oil</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Meat</IRI>
+        <Literal xml:lang="en">Was:
+ExMeat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Mollusc</IRI>
+        <Literal xml:lang="en">Was:
+ExMollusc</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Pork</IRI>
+        <Literal xml:lang="en">Was:
+ExPork</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Rabbit</IRI>
+        <Literal xml:lang="en">Was:
+ExRabbit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Red_Meat</IRI>
+        <Literal xml:lang="en">Was:
+ExRedMeat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Seafood</IRI>
+        <Literal xml:lang="en">Was:
+ExSeafood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#Allowed_Sugar</IRI>
+        <Literal xml:lang="en">Was:
+ExSugar</Literal>
+    </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Amine_intolerance</IRI>
@@ -10309,55 +10441,133 @@ No axioms are expected to be included in this version.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Arugula</IRI>
+        <Literal xml:lang="en">TODO: detangle all. Leave only one preferred label, add others to alt labels.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B</IRI>
+        <Literal xml:lang="en">Vitamin_B</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#B1</IRI>
         <Literal xml:lang="en">Thiamin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B1</IRI>
+        <Literal xml:lang="en">Vitamin_B1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#B12</IRI>
         <Literal xml:lang="en">Cobalamin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B12</IRI>
+        <Literal xml:lang="en">Vitamin_B12</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#B2</IRI>
         <Literal xml:lang="en">Riboflavin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B2</IRI>
+        <Literal xml:lang="en">Vitamin_B2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#B3</IRI>
         <Literal xml:lang="en">Niacin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B3</IRI>
+        <Literal xml:lang="en">Vitamin_B3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#B4</IRI>
+        <Literal xml:lang="en">Not a vitamin, but often grouped with the vitamin B complex due to its similarities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B4</IRI>
+        <Literal xml:lang="en">Choline</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B4</IRI>
+        <Literal xml:lang="en">Vitamin_B4</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#B5</IRI>
-        <Literal xml:lang="en">Pantothenic acid</Literal>
+        <Literal xml:lang="en">Pantothenic_acid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B5</IRI>
+        <Literal xml:lang="en">Vitamin_B5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#B6</IRI>
-        <Literal xml:lang="en">Pyridoxine
-Pyridoxal-5-Phosphate
-Pyridoxamine</Literal>
+        <Literal xml:lang="en">Pyridoxal-5-Phosphate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B6</IRI>
+        <Literal xml:lang="en">Pyridoxamine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B6</IRI>
+        <Literal xml:lang="en">Pyridoxine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B6</IRI>
+        <Literal xml:lang="en">Vitamin_B6</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#B7</IRI>
         <Literal xml:lang="en">Biotin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B7</IRI>
+        <Literal xml:lang="en">Vitamin_B7</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#B9</IRI>
         <Literal xml:lang="en">Folate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#BMI</IRI>
-        <Literal xml:lang="en">Body Mass Index</Literal>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B9</IRI>
+        <Literal xml:lang="en">Folic_acid</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#B9</IRI>
+        <Literal xml:lang="en">Vitamin_B9</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#BMI</IRI>
+        <Literal xml:lang="en">Body_Mass_Index</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#BMR</IRI>
-        <Literal xml:lang="en">Basal Metabolic Rate</Literal>
+        <Literal xml:lang="en">Basal_Metabolic_Rate</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10375,14 +10585,14 @@ Beans can rigger gout
 Beans can make you gassy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Beetroot</IRI>
         <Literal>Beets</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Breadsticks</IRI>
-        <Literal>Bread sticks</Literal>
+        <Literal>Bread_sticks</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10390,9 +10600,14 @@ Beans can make you gassy</Literal>
         <Literal xml:lang="en">See again nutrients. Might have been a mix up with root vegetables</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#C</IRI>
+        <Literal xml:lang="en">Vitamin_C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#CVD</IRI>
-        <Literal xml:lang="en">Cardiovascular Disease</Literal>
+        <Literal xml:lang="en">Cardiovascular_Disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10412,59 +10627,82 @@ No axioms are expected to be included in this version.</Literal>
 No axioms are expected to be included in this version.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Chili_pepper</IRI>
-        <Literal>Chilly pepper</Literal>
+        <Literal>Chilly_pepper</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Crouton</IRI>
         <Literal xml:lang="fr">croûtons</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Crustacean_allergy</IRI>
-        <Literal>Shellfish allergy</Literal>
+        <Literal>Shellfish_allergy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#D</IRI>
+        <Literal xml:lang="en">Vitamin_D</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#D3</IRI>
+        <Literal xml:lang="en">Vitamin_D3</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Drupes</IRI>
         <Literal xml:lang="en">Stone_fruit</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#FODMAPs_intolerance</IRI>
-        <Literal>Fermentable Oligo-, Di-, Mono-saccharides and polyols  --- found in: Apples, Soft cheeses, Honey, Milk, Artichokes, Bread, Beans, Lentils, Beer</Literal>
+        <Literal xml:lang="en">Fermentable Oligo-, Di-, Mono-saccharides and polyols.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FODMAPs_intolerance</IRI>
+        <Literal xml:lang="en">Resources cross-check for future release:
+FODMAPs found in: Apples (x), Soft cheeses (x), Honey (x), Milk (v), Artichokes (x), Bread (v), Beans (v), Lentils (v), Beer (v).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Fat-free</IRI>
-        <Literal>No fat</Literal>
+        <Literal>No_fat</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
-        <IRI>#Fat-free</IRI>
-        <Literal>Non fat</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Fat-free</IRI>
         <Literal>Non-fat</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#Fat-free</IRI>
+        <Literal>Non_fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Fat-free</IRI>
         <Literal>Nonfat</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Flax</IRI>
         <Literal>Flaxseed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fluid</IRI>
+        <Literal xml:lang="en">Unique case (with child) of both Food and Nutrient.
+Might be revised in the future.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#GCIs</IRI>
-        <Literal>Helper classes, to articulate commonly used complex concepts in GCIs only once. Purpose: reduce reasoning KB. Otherwise all occurences of said complex concept would be attributed to different concepts within the same KB.</Literal>
+        <Literal>Helper classes, to group frquently used complex concepts in GCIs.
+Purpose: reduce reasoning KB, increase reasoning efficiency.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10472,17 +10710,22 @@ No axioms are expected to be included in this version.</Literal>
         <Literal xml:lang="en">Botanically, grapes are berries, Nutritionally, if they don&apos;t share most pertinent attributes, they should be removed from this category.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Greek_yoghurt</IRI>
-        <Literal>Greek yogurt</Literal>
+        <Literal>Greek_yogurt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#HIIT</IRI>
-        <Literal xml:lang="en">High-intensity interval training</Literal>
+        <IRI>#HDL_cholesterol</IRI>
+        <Literal xml:lang="en">High-density lipoprotein cholesterol</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#HIIT</IRI>
+        <Literal xml:lang="en">High_intensity_interval_training</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Hummus</IRI>
         <Literal>Houmous</Literal>
     </AnnotationAssertion>
@@ -10493,14 +10736,15 @@ No axioms are expected to be included in this version.</Literal>
 No axioms are expected to be included in this version.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#IBD</IRI>
-        <Literal>Inflammatory Bowel Disease</Literal>
+        <Literal>Inflammatory_Bowel_Disease</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Implicit_goal</IRI>
-        <Literal>Helper class, for constructing the User KB.</Literal>
+        <Literal xml:lang="en">Helper class, for constructing the User KB.
+Please refer to main publication for usage example.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10544,12 +10788,22 @@ No axioms are expected to be included in this version.</Literal>
         <Literal>Dietary iron is found in two forms: heme and nonheme iron. Red meat (beef, lamb, and pork) has a 10-fold higher heme content than white meat (e.g., chicken) (Hooda et al., 2014).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#K1</IRI>
+        <Literal xml:lang="en">Vitamin_K1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#K2</IRI>
+        <Literal xml:lang="en">Vitamin_K2</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Kiwi</IRI>
         <Literal xml:lang="en">Botanically, kiwis are berries, Nutritionally, if they don&apos;t share most pertinent attributes, they should be removed from this category.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Kiwi</IRI>
         <Literal>Kiwifruit</Literal>
     </AnnotationAssertion>
@@ -10560,29 +10814,39 @@ No axioms are expected to be included in this version.</Literal>
 Axioms correspond completely to the parent concept &quot;Vegetarian&quot;</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Lactose-free</IRI>
-        <Literal>Non dairy</Literal>
+        <Literal>Non_dairy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Legume</IRI>
         <Literal>Pulses</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Low-fat</IRI>
-        <Literal>Extra lean</Literal>
+        <Literal>Extra_lean</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Low-fat</IRI>
         <Literal>Lowfat</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Low-fat</IRI>
-        <Literal>Reduced fat</Literal>
+        <Literal>Reduced_fat</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#Low_sodium</IRI>
+        <Literal xml:lang="en">Low_salt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#Low_sugar</IRI>
+        <Literal xml:lang="en">Semi-sweet</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10607,12 +10871,12 @@ No axioms are expected to be included in this version.</Literal>
         <Literal xml:lang="en">Trace mineral</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Mollusc</IRI>
         <Literal>Mollusk</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Multigrain</IRI>
         <Literal>Multi-grain</Literal>
     </AnnotationAssertion>
@@ -10628,34 +10892,39 @@ No axioms are expected to be included in this version.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Obesity</IRI>
+        <Literal xml:lang="en">BMI &gt;= 30</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Overweight</IRI>
+        <Literal xml:lang="en">25 &lt; BMI &lt; 30</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Passion_fruit_allergy</IRI>
         <Literal>Legacy only, maintained for functional purposes only. 
 No axioms are expected to be included in this version.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Persimmon</IRI>
         <Literal xml:lang="en">Kaki</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Pita</IRI>
-        <Literal>Pita bread</Literal>
+        <Literal>Pita_bread</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Pita</IRI>
         <Literal>Pitta</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Pita</IRI>
-        <Literal>Pitta bread</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Potassium</IRI>
-        <Literal>Potassium found in fruits such as oranges and bananas, sunflower seeds, cereals, breads and potatoes.</Literal>
+        <Literal>Pitta_bread</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10664,9 +10933,9 @@ No axioms are expected to be included in this version.</Literal>
 No axioms are expected to be included in this version.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Previous_MI</IRI>
-        <Literal>Myocardial_infarction</Literal>
+        <Literal xml:lang="en">Previous_myocardial_infarction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10687,14 +10956,9 @@ No axioms are expected to be included in this version.</Literal>
 No axioms are expected to be included in this version.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
-        <IRI>#Reduce_sugar</IRI>
-        <Literal>Semi-sweet</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Salad</IRI>
-        <Literal>Green salad</Literal>
+        <Literal>Green_salad</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10707,79 +10971,97 @@ No axioms are expected to be included in this version.</Literal>
         <Literal xml:lang="en">Salt placed in food (substance), as it consists of a compound of different minerals (typically sodium+chloride, although other minerals may be present in smaller traces, e.g. see @Sea_salt).</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Salt-free</IRI>
-        <Literal>No salt</Literal>
+        <Literal>No_salt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Salt-free</IRI>
-        <Literal>Sodium free</Literal>
+        <Literal>Sodium_free</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Salt-free</IRI>
         <Literal>Unsalted</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Salt-free</IRI>
-        <Literal>Without salt</Literal>
+        <Literal>Without_salt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Samphire</IRI>
         <Literal xml:lang="el">Κρίταμο</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
-        <IRI>#Scallion</IRI>
-        <Literal>Spring_onion</Literal>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Sea_salt</IRI>
+        <Literal xml:lang="en">To see if to add: 
+&quot;retains trace levels of minerals like magnesium, potassium, calcium and other nutrients&quot;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>#Sea_salt</IRI>
-        <Literal xml:lang="en">Sea salt is obtained directly through the evaporation of seawater. It is usually not processed, or undergoes minimal processing, and therefore retains trace levels of minerals like magnesium, potassium, calcium and other nutrients.</Literal>
+        <IRI>#Soy</IRI>
+        <Literal xml:lang="en">TODO: 
+1. detangle with Soyabean - maintain only one, synonyms on annotations. Do not lose axioms.
+2. Add soy sauce (common condiment), detangle from others and apply respective connections.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Soy</IRI>
         <Literal xml:lang="en">Soya</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Soy_yoghurt</IRI>
-        <Literal>Soy yogurt</Literal>
+        <Literal>Soy_yogurt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Soy_yoghurt</IRI>
-        <Literal>Soya yoghurt</Literal>
+        <Literal>Soya_yoghurt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Soy_yoghurt</IRI>
-        <Literal>Soya yogurt</Literal>
+        <Literal>Soya_yogurt</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Soya_bean</IRI>
-        <Literal>Soy bean</Literal>
+        <Literal xml:lang="en">TODO: detangle with Soybean - maintain only one, synonyms on annotations. Do not lose axioms.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#Soya_bean</IRI>
+        <Literal>Soy_bean</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Soya_bean</IRI>
         <Literal>Soyabean</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Soya_bean</IRI>
         <Literal>Soybean</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#Soya_milk</IRI>
+        <Literal xml:lang="en">Soy_milk</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Soybean</IRI>
+        <Literal xml:lang="en">TODO: detangle with Soya_bean - maintain only one, synonyms on annotations. Do not lose axioms.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Sugar-free</IRI>
-        <Literal>No sugar</Literal>
+        <Literal>No_sugar</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10802,7 +11084,9 @@ No axioms are expected to be included in this version.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Sunflower_seed</IRI>
-        <Literal>a good source of fiber, protein, iron, vitamin E and several of the B vitamins, rich source of the healthy mono- and polyunsaturated fats - however, they&apos;re also a source of saturated fatty acids</Literal>
+        <Literal xml:lang="en">TODO: chrosscheck resources:
+
+a good source of fiber, protein, iron, vitamin E and several of the B vitamins, rich source of the healthy mono- and polyunsaturated fats - however, they&apos;re also a source of saturated fatty acids</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10810,9 +11094,9 @@ No axioms are expected to be included in this version.</Literal>
         <Literal>higher levels of mercury contamination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#TDEE</IRI>
-        <Literal xml:lang="en">Total Daily Energy Expenditure</Literal>
+        <Literal xml:lang="en">Total_Daily_Energy_Expenditure</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10820,9 +11104,9 @@ No axioms are expected to be included in this version.</Literal>
         <Literal xml:lang="en">Table salt is mined from salt deposits and then processed to give it a fine texture so it’s easier to mix and use in recipes. This processing strips table salt of any minerals, and additives may be used to prevent clumping.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Tahini</IRI>
-        <Literal>Sesame butter</Literal>
+        <Literal>Sesame_butter</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -10830,7 +11114,7 @@ No axioms are expected to be included in this version.</Literal>
         <Literal>higher levels of mercury contamination</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Turmeric</IRI>
         <Literal>Curcumin</Literal>
     </AnnotationAssertion>
@@ -10840,22 +11124,27 @@ No axioms are expected to be included in this version.</Literal>
         <Literal>Sea urchin</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
         <IRI>#Water_deficiency</IRI>
-        <Literal>Dehydration</Literal>
+        <Literal xml:lang="en">skos:altLabel Dehydration may be revised in future releases</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
+        <IRI>#Water_deficiency</IRI>
+        <Literal xml:lang="en">Dehydration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Whole_grain</IRI>
         <Literal>Wholegrain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Whole_meal</IRI>
         <Literal>Wholemeal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Whole_wheat</IRI>
         <Literal>Wholewheat</Literal>
     </AnnotationAssertion>
@@ -10865,9 +11154,148 @@ No axioms are expected to be included in this version.</Literal>
         <Literal>Assumed plain, whole milk</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="owl:sameAs"/>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#altLabel"/>
         <IRI>#Yoghurt</IRI>
         <Literal>Yogurt</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#allowedActivity</IRI>
+        <Literal xml:lang="en">Was:
+excludeActivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#allowedFood</IRI>
+        <Literal xml:lang="en">Was:
+excludeFood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#allowedNutrient</IRI>
+        <Literal xml:lang="en">Was:
+restrictNutrient</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#containedInFood</IRI>
+        <Literal xml:lang="en">Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#containsFood</IRI>
+        <Literal xml:lang="en">Used for complex food breakdown to constituent (simpler) foods.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#containsNutrient</IRI>
+        <Literal xml:lang="en">Currently used for somewhat substantial participation of nutrient to food.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#followsDiet</IRI>
+        <Literal xml:lang="en">Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#freeOf</IRI>
+        <Literal xml:lang="en">Legacy only, maintained for functional purposes only. 
+Example usage in one axiom.
+No further axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fulfilGoal</IRI>
+        <Literal xml:lang="en">Used for constructing the User KB.
+Please refer to main publication for usage example.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#goalActivity</IRI>
+        <Literal xml:lang="en">Exploratory relation. 
+Used to infer if a given activity may contribute to the requirements of a goal, condition, type of user, or other relevant class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#goalNutrient</IRI>
+        <Literal xml:lang="en">Exploratory relation. 
+Used to infer if a given nutrient may contribute to the requirements of a goal, condition, type of user, or other relevant class.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasAllergy</IRI>
+        <Literal xml:lang="en">Legacy only, maintained for functional purposes only. 
+No further axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCharacteristic</IRI>
+        <Literal xml:lang="en">Legacy only, maintained for functional purposes only. 
+No further axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasCondition</IRI>
+        <Literal xml:lang="en">Legacy only, maintained for functional purposes only. 
+No further axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasFood</IRI>
+        <Literal xml:lang="en">Legacy only, maintained for functional purposes only. 
+No further axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasIntolerance</IRI>
+        <Literal xml:lang="en">Legacy only, maintained for functional purposes only. 
+No further axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#hasPreference</IRI>
+        <Literal xml:lang="en">Used to construct recommendation candidate profiles (as GCIs). 
+Refer to main publication for complete usage example.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+        <IRI>#hasPreference</IRI>
+        <Literal xml:lang="en">some hasPreference Vegetable SubClassOf &lt;unique usernameuser identifier as class&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#historyNote"/>
+        <IRI>#hasPreference</IRI>
+        <Literal xml:lang="en">Was:
+hasInterest</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#highIn</IRI>
+        <Literal xml:lang="en">High participation of nutrient to food.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#includes</IRI>
+        <Literal xml:lang="en">Used to construct recommendation candidate profiles, e.g. meal profiles, activity profiles, restaurant menu item profiles (as GCIs). 
+Refer to main publication for complete usage example.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://www.w3.org/2004/02/skos/core#example"/>
+        <IRI>#includes</IRI>
+        <Literal xml:lang="en">some includes Spinach SubClassOf &lt;unique identifier of candidate meal as class&gt;</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#lowIn</IRI>
+        <Literal xml:lang="en">Legacy only, maintained for functional purposes only. 
+No axioms are expected to be included in this version.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#lowIn</IRI>
+        <Literal xml:lang="en">Low participation of nutrient to food.</Literal>
     </AnnotationAssertion>
 </Ontology>
 
